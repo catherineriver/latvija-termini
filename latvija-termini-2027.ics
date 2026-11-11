@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Iedzivotaja termini//LV 2027//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дедлайны жителя Латвии 2027
+X-WR-TIMEZONE:Europe/Riga
+X-WR-CALDESC:Декларация\, налог на недвижимост
+ ь\, рабочие дни\, школы и садики (Рига). Све
+ рено 11.11.2026.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:63bab9942d02fba4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:NĪN: должно прийти уведомление о нало
+ ге на 2027 год
+DESCRIPTION:Самоуправление сообщает сумму нал
+ ога на недвижимость до 15 февраля (e-adrese\, e-
+ mail или почта). Если уведомление не пришло
+ \, владелец обязан в течение месяца письм
+ енно сообщить об этом самоуправлению. Ри
+ га: pip.riga.lv\, тел. 80000850.\n\nИсточник: https://pip.rig
+ a.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: должно прийти уведомление о на
+ логе на 2027 год
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a8e22e4f4179afd@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Декларация: открыт приём GID за 2026 год 
+ (EDS)
+DESCRIPTION:С 1 марта в EDS можно подать годовую 
+ декларацию о доходах за 2026 год. Добровол
+ ьную (возврат за лечение\, обучение и т.п.)
+  можно подать в течение трёх лет. Если об
+ щий доход за год больше 105 300 EUR\, приём — с
+  1 апреля.\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienak
+ umu-deklaracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: открыт приём GID за 2026 г
+ од (EDS)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a19c3c9d55aa97@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:NĪN: 1-й платёж налога на недвижимость
+DESCRIPTION:Четверть годовой суммы налога на н
+ едвижимость (сроки по закону: 31 марта\, 15 
+ мая\, 15 августа\, 15 ноября). Можно заплатит
+ ь сразу за весь год. За просрочку начисля
+ ются пени 0\,05% в день.\n\nИсточник: https://pip.rig
+ a.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 1-й платёж налога на недвижимос
+ ть
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 1-й платёж налога на недвижимос
+ ть
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:373ca8de0a1185b1@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Садики (Рига): начало комплектования 
+ групп на 1 сентября
+DESCRIPTION:По практике прошлых лет с 1 мая по 31
+  августа садики рассылают приглашения д
+ етям\, у которых желаемая дата начала — д
+ о 1 сентября. До этой даты проверьте заяв
+ ку на latvija.gov.lv: выбранные садики\, дата на
+ чала\, контакты. На приглашение нужно отв
+ етить в отведённый срок (в прошлые годы 
+ — 15 дней)\, иначе заявка аннулируется. За
+ пись в очередь идёт круглый год. Даты на 2
+ 027 год уточняйте на iksd.riga.lv.\n\nИсточник: http
+ s://iksd.riga.lv
+CATEGORIES:Школы и садики
+TRANSP:TRANSPARENT
+URL:https://iksd.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Садики (Рига): начало комплектован
+ ия групп на 1 сентября
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Садики (Рига): начало комплектован
+ ия групп на 1 сентября
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a6c09e294ae2116@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Обычный рабочий день (переноса в 2027 г
+ оду нет)
+DESCRIPTION:День между воскресеньем 2 мая и пра
+ здником 4 мая. По сообщению Министерства 
+ благосостояния (октябрь 2026)\, рабочие дни
+  в 2027 году не переносятся: распоряжение К
+ абинета министров не принято. Работодат
+ ель может дать выходной по собственному 
+ решению.\n\nИсточник: https://ifinanses.lv/zinas/actual-202
+ 7-gada-darba-dienas-netiek-parceltas/31835
+CATEGORIES:Рабочие дни
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Обычный рабочий день (переноса в 202
+ 7 году нет)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:77c270307e970c46@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:NĪN: 2-й платёж налога на недвижимость
+DESCRIPTION:Четверть годовой суммы налога на н
+ едвижимость (сроки по закону: 31 марта\, 15 
+ мая\, 15 августа\, 15 ноября). 15 мая 2027 — субб
+ ота\, срок переходит на понедельник 17 мая
+ . За просрочку начисляются пени 0\,05% в ден
+ ь.\n\nИсточник: https://pip.riga.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2-й платёж налога на недвижимос
+ ть
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2-й платёж налога на недвижимос
+ ть
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e92eebd61ef2b687@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:1-й класс (Рига): крайний срок регистр
+ ации заявки
+DESCRIPTION:Школы формируют списки претендент
+ ов в 1-й класс 2027/2028 по заявкам\, зарегистр
+ ированным до 15 мая (не более пяти школ). 15 
+ мая 2027 — суббота: подайте заявку не позж
+ е пятницы 14 мая. После формирования спис
+ ка школа в течение 5 рабочих дней присыла
+ ет уведомление\; на него нужно ответить з
+ а 10 календарных дней\, иначе место предла
+ гают следующему.\n\nИсточник: https://likumi.lv/ta/i
+ d/341736
+CATEGORIES:Школы и садики
+TRANSP:TRANSPARENT
+URL:https://likumi.lv/ta/id/341736
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1-й класс (Рига): крайний срок регис
+ трации заявки
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1-й класс (Рига): крайний срок регис
+ трации заявки
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1-й класс (Рига): крайний срок регис
+ трации заявки
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:861a49b0e0276fd3@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Декларация: крайний срок обязательн
+ ой GID за 2026
+DESCRIPTION:Последний день для тех\, кому декла
+ рация обязательна (хозяйственная деятел
+ ьность\, доходы из-за границы\, доплата на
+ лога и т.д.) и чей доход за 2026 год не превы
+ шает 105 300 EUR. При доходе выше — срок 1 июля
+ .\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок обязател
+ ьной GID за 2026
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок обязател
+ ьной GID за 2026
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок обязател
+ ьной GID за 2026
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:81767e8cfcaea932@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:1-й класс (Рига): школы завершают комп
+ лектование
+DESCRIPTION:К 1 июня школы должны укомплектова
+ ть первые классы. Следите за e-adrese и почто
+ й: на приглашение отвечают в течение 10 ка
+ лендарных дней. Списки продолжают менят
+ ься весь июнь по мере отказов.\n\nИсточник
+ : https://likumi.lv/ta/id/341736
+CATEGORIES:Школы и садики
+TRANSP:TRANSPARENT
+URL:https://likumi.lv/ta/id/341736
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1-й класс (Рига): школы завершают ко
+ мплектование
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:33bf5e7a68bfe3ae@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Декларация: срок доплаты IIN (или 1-я тр
+ еть)
+DESCRIPTION:Срок уплаты рассчитанного по декл
+ арации налога при доходе до 105 300 EUR. Если 
+ сумма больше 640 EUR\, её можно разделить на 
+ три части: 23 июня\, 23 июля\, 23 августа. 23–24 
+ июня — праздники\, поэтому фактически ср
+ ок сдвигается на следующий рабочий день\
+ , пятницу 25 июня\; надёжнее заплатить зар
+ анее.\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienakumu-dek
+ laracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: срок доплаты IIN (или 1-я 
+ треть)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: срок доплаты IIN (или 1-я 
+ треть)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7526d975bb57c4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Обычный рабочий день (переноса в 2027 г
+ оду нет)
+DESCRIPTION:День после праздников 23–24 июня. По
+  сообщению Министерства благосостояния 
+ (октябрь 2026)\, рабочие дни в 2027 году не пер
+ еносятся: распоряжение Кабинета министр
+ ов не принято. Работодатель может дать в
+ ыходной по собственному решению.\n\nИсточ
+ ник: https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-pa
+ rceltas/31835
+CATEGORIES:Рабочие дни
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Обычный рабочий день (переноса в 202
+ 7 году нет)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41955cdd2a39417e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Декларация: крайний срок при доходе 
+ свыше 105 300 EUR
+DESCRIPTION:Обязательная GID за 2026 год для тех\, 
+ чей общий доход превысил 105 300 EUR (приём с 1
+  апреля по 1 июля). Доплата налога в этом с
+ лучае — до 23 июля (либо тремя частями: 23 и
+ юля\, 23 августа\, 23 сентября).\n\nИсточник: ht
+ tps://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок при доход
+ е свыше 105 300 EUR
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок при доход
+ е свыше 105 300 EUR
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: крайний срок при доход
+ е свыше 105 300 EUR
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa03e7ca064c75c@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Декларация: 2-я треть доплаты IIN
+DESCRIPTION:Вторая часть доплаты\, если налог к
+  уплате больше 640 EUR и платится тремя част
+ ями (доход до 105 300 EUR). Для дохода выше 105 300
+  EUR — это срок единого платежа или первой
+  трети.\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienakumu-
+ deklaracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: 2-я треть доплаты IIN
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39a42a3d6a6f2383@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:NĪN: 3-й платёж налога на недвижимость
+DESCRIPTION:Четверть годовой суммы налога на н
+ едвижимость (сроки по закону: 31 марта\, 15 
+ мая\, 15 августа\, 15 ноября). 15 августа 2027 — 
+ воскресенье\, срок переходит на понедель
+ ник 16 августа. За просрочку начисляются 
+ пени 0\,05% в день.\n\nИсточник: https://pip.riga.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 3-й платёж налога на недвижимос
+ ть
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 3-й платёж налога на недвижимос
+ ть
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a7bcbee85bac6e6@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Декларация: 3-я треть доплаты IIN
+DESCRIPTION:Последняя часть доплаты при оплат
+ е тремя частями (доход до 105 300 EUR).\n\nИсточ
+ ник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Декларация
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Декларация: 3-я треть доплаты IIN
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7c52cb14b0f0f5c0@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:NĪN: 4-й платёж налога на недвижимость
+DESCRIPTION:Четверть годовой суммы налога на н
+ едвижимость (сроки по закону: 31 марта\, 15 
+ мая\, 15 августа\, 15 ноября). Последний плат
+ ёж года. За просрочку начисляются пени 0\,
+ 05% в день.\n\nИсточник: https://pip.riga.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 4-й платёж налога на недвижимос
+ ть
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 4-й платёж налога на недвижимос
+ ть
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd6277bbeb544b2@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:Обычный рабочий день (переноса в 2027 г
+ оду нет)
+DESCRIPTION:День после праздника 18 ноября. По с
+ ообщению Министерства благосостояния (о
+ ктябрь 2026)\, рабочие дни в 2027 году не пере
+ носятся: распоряжение Кабинета министро
+ в не принято. Работодатель может дать вы
+ ходной по собственному решению.\n\nИсточн
+ ик: https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parc
+ eltas/31835
+CATEGORIES:Рабочие дни
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Обычный рабочий день (переноса в 202
+ 7 году нет)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

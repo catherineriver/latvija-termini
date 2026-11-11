@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://catherineriver.github.io/latvija-termini/sitemap.xml
