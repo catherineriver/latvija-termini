@@ -87,9 +87,9 @@ for k, t in T.items():
 def dlabel(d, t):
     return f"{d.day} {selfemployed.RU_GEN[d.month-1]}" if t["other"] == "lv" else f"{d.day}. {selfemployed.LV_NOM[d.month-1]}"
 
-def timeline(base, loc, t):
+def timeline(base, loc, t, idp="e-"):
     tl = []; last = None
-    for ev, e in zip(base, loc):
+    for n, (ev, e) in enumerate(zip(base, loc)):
         d = e["date"]
         if (d.year, d.month) != last:
             if last: tl.append("</ol></section>")
@@ -97,7 +97,7 @@ def timeline(base, loc, t):
             tl.append(f'<section class="month"><h3>{t["months"][d.month-1]}{yr}</h3><ol>'); last = (d.year, d.month)
         s = f' <a href="{html.escape(e["url"])}" rel="noopener">{t["src"]}</a>' if e["url"] else ""
         a = f'<p class="where"><a href="{html.escape(e["act"][1])}" rel="noopener">{html.escape(e["act"][0])}</a></p>' if e.get("act") else ""
-        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}" data-date="{d.isoformat()}" data-dl="{dlabel(d, t)}"><div class="date"><b>{d.day:02d}.{d.month:02d}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><p class="tag"><i></i>{html.escape(e["cat"])}</p><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
+        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}" id="{idp}{d.isoformat()}-{n}" data-date="{d.isoformat()}" data-dl="{dlabel(d, t)}"><div class="date"><b>{d.day}</b><span>{t["months"][d.month-1][:3].lower()}</span><em>{t["wd"][d.weekday()]}</em></div><div class="body"><p class="tag"><i></i>{html.escape(e["cat"])}</p><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
     tl.append("</ol></section>")
     return "".join(tl)
 
@@ -112,13 +112,20 @@ def render(k):
     seen = {}
     for ev, e in zip(EVS, t["events"]): seen.setdefault(CATCLS[ev["cat"]], e["cat"])
     chips = "".join(f'<button type="button" class="{c}" data-f="{c}" aria-pressed="false"><i></i>{html.escape(n)}</button>' for c, n in seen.items())
-    tl = timeline(EVS, t["events"], t); se_tl = timeline(SE, t["se_events"], t)
+    tl = timeline(EVS, t["events"], t); se_tl = timeline(SE, t["se_events"], t, "s-")
     se_feed = BASE + SEICS[k]; se_webcal = "webcal://" + se_feed.split("://")[1]
     se_gcal = "https://calendar.google.com/calendar/r?cid=" + se_webcal.replace(":", "%3A").replace("/", "%2F")
     nx = next((e for e in zip(EVS, t["events"]) if e[0]["date"] >= dt.date.today()), None) or list(zip(EVS, t["events"]))[-1]
     nd = nx[0]["date"]; ndays = (nd - dt.date.today()).days
     nin = t["next_today"] if ndays == 0 else t["next_tom"] if ndays == 1 else t["next_in"].format(n=ndays) if ndays > 1 else ""
-    stamp = f'<aside class="stamp" id="next" data-in="{t["next_in"]}" data-today="{t["next_today"]}" data-tom="{t["next_tom"]}"><p class="s1">{t["next_l"]}</p><p class="s2">{dlabel(nd, t)}</p><p class="s3">{html.escape(nx[1]["title"])}</p><p class="s4">{nin}</p></aside>'
+    stamp = f'<p class="next" id="next" data-in="{t["next_in"]}" data-today="{t["next_today"]}" data-tom="{t["next_tom"]}"><span class="s1">{t["next_l"]}:</span> <b class="s2">{dlabel(nd, t)}</b>, <span class="s3">{html.escape(nx[1]["title"])}</span> <span class="s4">({nin})</span></p>'
+    cols = {}
+    for n, (ev, e) in enumerate(zip(EVS, t["events"])):
+        d = ev["date"]; cols.setdefault((d.year, d.month), []).append(f'<a class="dot {CATCLS[ev["cat"]]}" href="#e-{d.isoformat()}-{n}" title="{html.escape(e["title"])}"><b>{d.day}</b></a>')
+    ym = sorted(cols); y, m = ym[0]; allm = []
+    while (y, m) <= ym[-1]:
+        allm.append((y, m)); y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    strip = "".join(f'<div class="mc" data-ym="{y}-{m:02d}"><span class="mn">{t["months"][m-1][:3].lower()}{" " + str(y) if m == 1 or i == 0 else ""}</span><div class="dots">{"".join(cols.get((y, m), []))}</div></div>' for i, (y, m) in enumerate(allm))
     cards = "".join(f'<div class="card"><b>{a}</b><span>{b}</span></div>' for a, b in t["cards"] + [t["card_se"]])
     faq = "".join(f"<div><h3>{q}</h3><p>{a}</p></div>" for q, a in t["faq"])
     links = '<a href="https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija" rel="noopener">VID</a>, <a href="https://pip.riga.lv" rel="noopener">Rīgas pašvaldība</a>, <a href="https://likumi.lv/ta/id/341736" rel="noopener">likumi.lv</a>'
@@ -140,7 +147,7 @@ def render(k):
 <link rel="alternate" hreflang="lv" href="{BASE}lv/">
 <link rel="alternate" hreflang="x-default" href="{BASE}">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta name="theme-color" content="#e8ebe4">
+<meta name="theme-color" content="#f3f6f7">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="{t["locale"]}">
 <meta property="og:locale:alternate" content="{o["locale"]}">
@@ -157,13 +164,13 @@ def render(k):
 <style>{CSS}</style>
 </head>
 <body>
-<svg width="0" height="0" aria-hidden="true" focusable="false"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.8"/></filter></svg>
 <header class="top"><div class="wrap"><a class="lang" href="{ourl}" hreflang="{t["other"]}" lang="{t["other"]}">{t["other_label"]}</a>
 <div class="hero">
-<div><h1>{t["h1"]}</h1>
+<h1>{t["h1"]}</h1>
 <p class="lead">{t["lead"]}</p>
-<p class="meta">{t["meta"].format(n=len(t["events"])).replace(" · ", ", ")}</p></div>
+<div class="btns"><a class="btn" href="{gcal}" rel="noopener">{t["b_g"]}</a><a class="btn o" href="{webcal}">{t["b_a"]}</a><a class="dl" href="{p}{ICS[k]}" download>{t["b_d"]}</a></div>
 {stamp}
+<div class="strip" aria-label="{t["h_cal"]}">{strip}</div>
 </div></div></header>
 <main class="wrap">
 <h2>{t["h_sub"]}</h2>
@@ -193,15 +200,16 @@ def render(k):
     open(("index.html" if k == "ru" else "lv/index.html"), "w", encoding="utf-8").write(page)
     # OG image
     W, H = 1200, 630
-    im = Image.new("RGB", (W, H), "#e8ebe4"); d = ImageDraw.Draw(im)
+    im = Image.new("RGB", (W, H), "#f3f6f7"); d = ImageDraw.Draw(im)
     F = "/usr/share/fonts/truetype/dejavu/"
-    fb = lambda s: ImageFont.truetype(F + "DejaVuSansCondensed-Bold.ttf", s); fs = lambda s: ImageFont.truetype(F + "DejaVuSansCondensed.ttf", s)
-    d.rectangle([0, H-14, W, H], fill="#16202a")
-    for i, line in enumerate(t["og"][1]): d.text((70, 90+i*100), line, font=fb(88), fill="#16202a")
-    d.text((70, 420), t["og"][2], font=fs(30), fill="#4a5560")
-    d.rectangle([70, 500, 560, 566], fill="#16202a"); d.text((96, 517), t["og"][3], font=fs(28), fill="#e8ebe4")
-    d.rectangle([860, 70, 1130, 210], outline="#9b2335", width=6); d.rectangle([870, 80, 1120, 200], outline="#9b2335", width=2)
-    d.text((885, 100), "11.11", font=fb(64), fill="#9b2335")
+    fb = lambda s: ImageFont.truetype(F + "DejaVuSans-Bold.ttf", s); fs = lambda s: ImageFont.truetype(F + "DejaVuSans.ttf", s)
+    for i, line in enumerate(t["og"][1]): d.text((70, 70+i*96), line, font=fb(76), fill="#10283a")
+    d.text((70, 400), t["og"][2], font=fs(28), fill="#4f6575")
+    d.rounded_rectangle([70, 490, 560, 560], radius=35, fill="#10283a"); d.text((105, 508), t["og"][3], font=fs(28), fill="#f3f6f7")
+    cs = ["#b3243b", "#2e7d5b", "#c98a12", "#2f6fb0"]
+    for i in range(12):
+        x = 70 + i * 90; d.ellipse([x, 590, x + 44, 634], fill=cs[i % 4]) if False else None
+    for i, c in enumerate(cs * 3): d.ellipse([W-70-(12-i)*72, 70 if i < 0 else 560, W-70-(12-i)*72+52, 612], fill=c)
     im.save(og, optimize=True)
 for k in T: render(k)
 
