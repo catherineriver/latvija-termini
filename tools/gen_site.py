@@ -1,4 +1,5 @@
 import html, json, os, sys
+import datetime as dt
 sys.path.insert(0, os.path.dirname(__file__))
 import build, lv, ics, selfemployed, actions
 from PIL import Image, ImageDraw, ImageFont
@@ -71,17 +72,20 @@ SEXT = {
  se_note="Параметры (VSAOI 31,07% от базы не менее 780 EUR, IIN 25,5% и 33%) взяты из материалов VID за 2026 год, на 2027 год они могут измениться. С 2026 года обязательных минимальных взносов нет, а заранее сообщать VID ожидаемый доход больше не нужно. Если срок выпадает на выходной или праздник, событие стоит на последнем рабочем дне до него: по правилам срок обычно переносится вперёд, но надёжнее успеть заранее.",
  se_more="Показать все сроки ({n})", se_calname="Дедлайны самозанятых Латвии 2026–2027", se_caldesc="Квартальные отчёты и VSAOI, MUN, PVN. Сверено 11.11.2026.",
  card_se=("Самозанятые","Отдельный календарь: отчёты и взносы, MUN, PVN, ссылки на EDS."), actw="Где подать или оплатить",
- b_se="Для самозанятых ↓", f_all="Все", past_show="Показать прошедшие", past_hide="Скрыть прошедшие", copy="Копировать", copied="Скопировано", next_l="Ближайший срок", next_in="через {n} дн.", next_today="сегодня", next_tom="завтра", go="К событию ↓"),
+ b_se="", sheet_a=("Календарь жителя","Декларация, налог на недвижимость, школы и садики в Риге, рабочие дни. Событий: {n}."), sheet_b=("Календарь самозанятого","Квартальные отчёты и VSAOI, MUN, PVN. Событий: {n}."), f_all="Все", past_show="Показать прошедшие", past_hide="Скрыть прошедшие", copy="Копировать", copied="Скопировано", next_l="Ближайший срок", next_in="через {n} дн.", next_today="сегодня", next_tom="завтра", go=""),
 "lv": dict(se_h="Kalendārs pašnodarbinātajiem",
  se_lead="Atsevišķs abonements ar ceturkšņa ziņojumiem un VSAOI, MUN termiņiem un PVN deklarācijām. Abonējiet to papildus galvenajam kalendāram: gada deklarācija (GID) un IIN tajā jau ir.",
  se_note="Parametri (VSAOI 31,07% no bāzes ne mazāk kā 780 EUR, IIN 25,5% un 33%) ņemti no VID 2026. gada materiāliem, 2027. gadā tie var mainīties. Kopš 2026. gada obligāto minimālo iemaksu nav, un gaidāmos ienākumus iepriekš VID vairs nav jāpaziņo. Ja termiņš iekrīt brīvdienā vai svētku dienā, notikums ir pēdējā darba dienā pirms tās: parasti termiņš pārceļas uz priekšu, taču drošāk paspēt iepriekš.",
  se_more="Rādīt visus termiņus ({n})", se_calname="Latvijas pašnodarbināto termiņi 2026–2027", se_caldesc="Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Pārbaudīts 11.11.2026.",
  card_se=("Pašnodarbinātie","Atsevišķs kalendārs: ziņojumi un iemaksas, MUN, PVN, saites uz EDS."), actw="Kur iesniegt vai samaksāt",
- b_se="Pašnodarbinātajiem ↓", f_all="Visi", past_show="Rādīt pagājušos", past_hide="Slēpt pagājušos", copy="Kopēt", copied="Nokopēts", next_l="Tuvākais termiņš", next_in="pēc {n} d.", next_today="šodien", next_tom="rīt", go="Uz notikumu ↓")}
+ b_se="", sheet_a=("Iedzīvotāja kalendārs","Deklarācija, nekustamā īpašuma nodoklis, skolas un bērnudārzi Rīgā, darba dienas. Notikumu: {n}."), sheet_b=("Pašnodarbinātā kalendārs","Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Notikumu: {n}."), f_all="Visi", past_show="Rādīt pagājušos", past_hide="Slēpt pagājušos", copy="Kopēt", copied="Nokopēts", next_l="Tuvākais termiņš", next_in="pēc {n} d.", next_today="šodien", next_tom="rīt", go="")}
 for k, t in T.items():
     t.update(SEXT[k]); t["se_events"] = SERU if k == "ru" else SELV
     ics.write_ics(t["events"], ICS[k], t["calname"], t["caldesc"], t["srcw"], t["actw"])
     ics.write_ics(t["se_events"], SEICS[k], t["se_calname"], t["se_caldesc"], t["srcw"], t["actw"])
+
+def dlabel(d, t):
+    return f"{d.day} {selfemployed.RU_GEN[d.month-1]}" if t["other"] == "lv" else f"{d.day}. {selfemployed.LV_NOM[d.month-1]}"
 
 def timeline(base, loc, t):
     tl = []; last = None
@@ -89,11 +93,11 @@ def timeline(base, loc, t):
         d = e["date"]
         if (d.year, d.month) != last:
             if last: tl.append("</ol></section>")
-            yr = f" {d.year}" if d.year != 2027 else ""
+            yr = f" {d.year}"
             tl.append(f'<section class="month"><h3>{t["months"][d.month-1]}{yr}</h3><ol>'); last = (d.year, d.month)
         s = f' <a href="{html.escape(e["url"])}" rel="noopener">{t["src"]}</a>' if e["url"] else ""
-        a = f'<a class="act" href="{html.escape(e["act"][1])}" rel="noopener">{html.escape(e["act"][0])} →</a>' if e.get("act") else ""
-        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}" data-date="{d.isoformat()}"><div class="date"><b>{d.day}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><div class="tag">{html.escape(e["cat"])}</div><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
+        a = f'<p class="where"><a href="{html.escape(e["act"][1])}" rel="noopener">{html.escape(e["act"][0])}</a></p>' if e.get("act") else ""
+        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}" data-date="{d.isoformat()}" data-dl="{dlabel(d, t)}"><div class="date"><b>{d.day:02d}.{d.month:02d}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><p class="tag"><i></i>{html.escape(e["cat"])}</p><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
     tl.append("</ol></section>")
     return "".join(tl)
 
@@ -107,12 +111,16 @@ def render(k):
     gcal = "https://calendar.google.com/calendar/r?cid=" + webcal.replace(":", "%3A").replace("/", "%2F")
     seen = {}
     for ev, e in zip(EVS, t["events"]): seen.setdefault(CATCLS[ev["cat"]], e["cat"])
-    chips = "".join(f'<button type="button" data-f="{c}" aria-pressed="false">{html.escape(n)}</button>' for c, n in seen.items())
+    chips = "".join(f'<button type="button" class="{c}" data-f="{c}" aria-pressed="false"><i></i>{html.escape(n)}</button>' for c, n in seen.items())
     tl = timeline(EVS, t["events"], t); se_tl = timeline(SE, t["se_events"], t)
     se_feed = BASE + SEICS[k]; se_webcal = "webcal://" + se_feed.split("://")[1]
     se_gcal = "https://calendar.google.com/calendar/r?cid=" + se_webcal.replace(":", "%3A").replace("/", "%2F")
+    nx = next((e for e in zip(EVS, t["events"]) if e[0]["date"] >= dt.date.today()), None) or list(zip(EVS, t["events"]))[-1]
+    nd = nx[0]["date"]; ndays = (nd - dt.date.today()).days
+    nin = t["next_today"] if ndays == 0 else t["next_tom"] if ndays == 1 else t["next_in"].format(n=ndays) if ndays > 1 else ""
+    stamp = f'<aside class="stamp" id="next" data-in="{t["next_in"]}" data-today="{t["next_today"]}" data-tom="{t["next_tom"]}"><p class="s1">{t["next_l"]}</p><p class="s2">{dlabel(nd, t)}</p><p class="s3">{html.escape(nx[1]["title"])}</p><p class="s4">{nin}</p></aside>'
     cards = "".join(f'<div class="card"><b>{a}</b><span>{b}</span></div>' for a, b in t["cards"] + [t["card_se"]])
-    faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in t["faq"])
+    faq = "".join(f"<div><h3>{q}</h3><p>{a}</p></div>" for q, a in t["faq"])
     links = '<a href="https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija" rel="noopener">VID</a>, <a href="https://pip.riga.lv" rel="noopener">Rīgas pašvaldība</a>, <a href="https://likumi.lv/ta/id/341736" rel="noopener">likumi.lv</a>'
     ld = json.dumps({"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": BASE + "#site", "url": BASE, "name": t["site"], "inLanguage": k},
@@ -132,7 +140,7 @@ def render(k):
 <link rel="alternate" hreflang="lv" href="{BASE}lv/">
 <link rel="alternate" hreflang="x-default" href="{BASE}">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta name="theme-color" content="#8c2b35">
+<meta name="theme-color" content="#e8ebe4">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="{t["locale"]}">
 <meta property="og:locale:alternate" content="{o["locale"]}">
@@ -149,34 +157,34 @@ def render(k):
 <style>{CSS}</style>
 </head>
 <body>
-<header class="hero"><a class="lang" href="{ourl}" hreflang="{t["other"]}" lang="{t["other"]}">{t["other_label"]}</a><div class="wrap">
-<div class="eyebrow">{t["eyebrow"]}</div>
-<h1>{t["h1"]}</h1>
+<svg width="0" height="0" aria-hidden="true" focusable="false"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.8"/></filter></svg>
+<header class="top"><div class="wrap"><a class="lang" href="{ourl}" hreflang="{t["other"]}" lang="{t["other"]}">{t["other_label"]}</a>
+<div class="hero">
+<div><h1>{t["h1"]}</h1>
 <p class="lead">{t["lead"]}</p>
-<div class="cta"><a class="btn p" href="{gcal}" rel="noopener">{t["b_g"]}</a><a class="btn s" href="{webcal}">{t["b_a"]}</a><a class="btn s" href="{p}{ICS[k]}" download>{t["b_d"]}</a><a class="btn s" href="#selfemployed">{t["b_se"]}</a></div>
-<div class="meta">{t["meta"].format(n=len(t["events"]))}</div>
-</div></header>
+<p class="meta">{t["meta"].format(n=len(t["events"])).replace(" · ", ", ")}</p></div>
+{stamp}
+</div></div></header>
 <main class="wrap">
-<h2>{t["h_in"]}</h2>
-<div class="cards">{cards}</div>
 <h2>{t["h_sub"]}</h2>
-<div class="sub">
-<div class="card"><b>{t["s_g"][0]}</b><span>{t["s_g"][1]}</span><br><a class="btn" href="{gcal}" rel="noopener">{t["s_btn"]}</a></div>
-<div class="card"><b>{t["s_a"][0]}</b><span>{t["s_a"][1]}</span><br><a class="btn" href="{webcal}">{t["s_btn"]}</a></div>
-<div class="card"><b>{t["s_o"][0]}</b><span>{t["s_o"][1]}</span><br><code>{feed}</code><button class="copy" type="button" data-url="{feed}" data-ok="{t["copied"]}">{t["copy"]}</button></div>
+<div class="sheets">
+<section class="sheet"><h3>{t["sheet_a"][0]}</h3><div class="in"><p>{t["sheet_a"][1].format(n=len(t["events"]))}</p>
+<div class="btns"><a class="btn" href="{gcal}" rel="noopener">{t["b_g"]}</a><a class="btn o" href="{webcal}">{t["b_a"]}</a><a class="dl" href="{p}{ICS[k]}" download>{t["b_d"]}</a></div>
+<p class="url"><span>{t["s_o"][1]}</span><code>{feed}</code><button class="copy" type="button" data-url="{feed}" data-ok="{t["copied"]}">{t["copy"]}</button></p></div></section>
+<section class="sheet" id="selfemployed-sub"><h3>{t["sheet_b"][0]}</h3><div class="in"><p>{t["sheet_b"][1].format(n=len(t["se_events"]))}</p>
+<div class="btns"><a class="btn" href="{se_gcal}" rel="noopener">{t["b_g"]}</a><a class="btn o" href="{se_webcal}">{t["b_a"]}</a><a class="dl" href="{p}{SEICS[k]}" download>{t["b_d"]}</a></div>
+<p class="url"><span>{t["s_o"][1]}</span><code>{se_feed}</code><button class="copy" type="button" data-url="{se_feed}" data-ok="{t["copied"]}">{t["copy"]}</button></p></div></section>
 </div>
 <p class="note">{t["note"]}</p>
 <h2>{t["h_cal"]}</h2>
-<div id="next" class="nextb" hidden data-in="{t["next_in"]}" data-today="{t["next_today"]}" data-tom="{t["next_tom"]}"><span class="nl">{t["next_l"]}</span> <b class="nd"></b> <span class="nt"></span> <a href="#next-ev">{t["go"]}</a></div>
 <div id="tools" class="chips" hidden><button type="button" data-f="all" aria-pressed="true">{t["f_all"]}</button>{chips}<button type="button" id="pastbtn" class="pb" data-show="{t["past_show"]}" data-hide="{t["past_hide"]}">{t["past_show"]}</button></div>
 <div id="tl">{tl}</div>
 <h2 id="selfemployed">{t["se_h"]}</h2>
 <p>{t["se_lead"]}</p>
-<div class="cta2"><a class="btn" href="{se_gcal}" rel="noopener">{t["b_g"]}</a><a class="btn" href="{se_webcal}">{t["b_a"]}</a><a class="btn" href="{p}{SEICS[k]}" download>{t["b_d"]}</a></div>
 <p class="note">{t["se_note"]}</p>
 <details class="all"><summary>{t["se_more"].format(n=len(t["se_events"]))}</summary>{se_tl}</details>
 <h2>{t["h_faq"]}</h2>
-{faq}
+<div class="faq">{faq}</div>
 </main>
 <footer><div class="wrap">{t["foot"].format(l=links)}</div></footer>
 <script>{JS}</script>
@@ -185,14 +193,15 @@ def render(k):
     open(("index.html" if k == "ru" else "lv/index.html"), "w", encoding="utf-8").write(page)
     # OG image
     W, H = 1200, 630
-    im = Image.new("RGB", (W, H), "#8c2b35"); d = ImageDraw.Draw(im)
+    im = Image.new("RGB", (W, H), "#e8ebe4"); d = ImageDraw.Draw(im)
     F = "/usr/share/fonts/truetype/dejavu/"
-    fb = lambda s: ImageFont.truetype(F + "DejaVuSerif-Bold.ttf", s); fs = lambda s: ImageFont.truetype(F + "DejaVuSans.ttf", s)
-    d.rectangle([0, H-14, W, H], fill="#fff")
-    d.text((70, 70), t["og"][0], font=fs(26), fill="#f0c9cd")
-    for i, line in enumerate(t["og"][1]): d.text((70, 130+i*88), line, font=fb(74), fill="#fff")
-    d.text((70, 440), t["og"][2], font=fs(30), fill="#fff")
-    d.rounded_rectangle([70, 500, 560, 566], radius=14, fill="#fff"); d.text((96, 517), t["og"][3], font=fs(28), fill="#8c2b35")
+    fb = lambda s: ImageFont.truetype(F + "DejaVuSansCondensed-Bold.ttf", s); fs = lambda s: ImageFont.truetype(F + "DejaVuSansCondensed.ttf", s)
+    d.rectangle([0, H-14, W, H], fill="#16202a")
+    for i, line in enumerate(t["og"][1]): d.text((70, 90+i*100), line, font=fb(88), fill="#16202a")
+    d.text((70, 420), t["og"][2], font=fs(30), fill="#4a5560")
+    d.rectangle([70, 500, 560, 566], fill="#16202a"); d.text((96, 517), t["og"][3], font=fs(28), fill="#e8ebe4")
+    d.rectangle([860, 70, 1130, 210], outline="#9b2335", width=6); d.rectangle([870, 80, 1120, 200], outline="#9b2335", width=2)
+    d.text((885, 100), "11.11", font=fb(64), fill="#9b2335")
     im.save(og, optimize=True)
 for k in T: render(k)
 

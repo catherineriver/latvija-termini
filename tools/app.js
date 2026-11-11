@@ -6,9 +6,9 @@ items.forEach(function(li){var d=new Date(li.dataset.date+'T00:00:00');
  if(d<today)li.classList.add('past');else if(!nextLi)nextLi=li;});
 var nb=document.getElementById('next');
 if(nextLi&&nb){var d=new Date(nextLi.dataset.date+'T00:00:00'),n=Math.round((d-today)/864e5);
- nb.querySelector('.nd').textContent=n===0?nb.dataset.today:n===1?nb.dataset.tom:nb.dataset.in.replace('{n}',n);
- nb.querySelector('.nt').textContent=nextLi.querySelector('h4').textContent;
- nextLi.id='next-ev';nb.hidden=false;nextLi.classList.add('soon');}
+ nb.querySelector('.s4').textContent=n===0?nb.dataset.today:n===1?nb.dataset.tom:nb.dataset.in.replace('{n}',n);
+ nb.querySelector('.s3').textContent=nextLi.querySelector('h4').textContent;
+ nb.querySelector('.s2').textContent=nextLi.dataset.dl;nextLi.classList.add('soon');}
 var tools=document.getElementById('tools'),f='all',hidePast=true;
 function refresh(){
  items.forEach(function(li){var v=!(hidePast&&li.classList.contains('past'))&&(f==='all'||li.classList.contains(f));li.hidden=!v;});
