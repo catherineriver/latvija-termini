@@ -14,7 +14,7 @@ ev(D(2027,3,1), "Декларация: открыт приём GID за 2026 г�
 ev(D(2027,6,1), "Декларация: крайний срок обязательной GID за 2026",
    "Последний день для тех, кому декларация обязательна (хозяйственная деятельность, доходы из-за границы, доплата налога и т.д.) и чей доход за 2026 год не превышает 105 300 EUR. При доходе выше — срок 1 июля.", VID, "Декларация", alarms=(14,3,1))
 ev(D(2027,6,23), "Декларация: срок доплаты IIN (или 1-я треть)",
-   "Срок уплаты рассчитанного по декларации налога при доходе до 105 300 EUR. Если сумма больше 640 EUR, её можно разделить на три части: 23 июня, 23 июля, 23 августа. 23–24 июня — праздники, поэтому фактически срок сдвигается на следующий рабочий день, пятницу 25 июня; надёжнее заплатить заранее.", VID, "Декларация")
+   "Срок уплаты рассчитанного по декларации налога при доходе до 105 300 EUR. Если сумма больше 640 EUR, её можно разделить на три части: 23 июня, 23 июля, 23 августа. 23–24 июня — праздничные дни. Обычно срок в таком случае переносится на следующий рабочий день (пятница 25 июня), но официального подтверждения для этого года я не нашёл: надёжнее заплатить заранее.", VID, "Декларация")
 ev(D(2027,7,1), "Декларация: крайний срок при доходе свыше 105 300 EUR",
    "Обязательная GID за 2026 год для тех, чей общий доход превысил 105 300 EUR (приём с 1 апреля по 1 июля). Доплата налога в этом случае — до 23 июля (либо тремя частями: 23 июля, 23 августа, 23 сентября).", VID, "Декларация", alarms=(14,3,1))
 ev(D(2027,7,23), "Декларация: 2-я треть доплаты IIN",
@@ -52,29 +52,3 @@ ev(D(2027,6,1), "1-й класс (Рига): школы завершают ко�
    "К 1 июня школы должны укомплектовать первые классы. Следите за e-adrese и почтой: на приглашение отвечают в течение 10 календарных дней. Списки продолжают меняться весь июнь по мере отказов.",
    SK1, "Школы и садики", alarms=(0,))
 
-def esc(s): return s.replace("\\","\\\\").replace(";","\\;").replace(",","\\,").replace("\n","\\n")
-def fold(line):
-    b=line.encode(); out=[]; 
-    while len(b)>75:
-        cut=75
-        while (b[cut]&0xC0)==0x80: cut-=1
-        out.append(b[:cut].decode()); b=b" "+b[cut:]
-    out.append(b.decode()); return "\r\n".join(out)
-L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Iedzivotaja termini//LV 2027//RU","CALSCALE:GREGORIAN","METHOD:PUBLISH",
-   "X-WR-CALNAME:Дедлайны жителя Латвии 2027","X-WR-TIMEZONE:Europe/Riga",
-   "X-WR-CALDESC:Декларация\\, налог на недвижимость\\, рабочие дни\\, школы и садики (Рига). Сверено 11.11.2026.",
-   "REFRESH-INTERVAL;VALUE=DURATION:P1D","X-PUBLISHED-TTL:P1D"]
-for e in sorted(E,key=lambda x:x["date"]):
-    uid=hashlib.sha1((e["date"].isoformat()+e["title"]).encode()).hexdigest()[:16]+"@iedzivotaja-termini.lv"
-    desc=e["desc"]+(f"\n\nИсточник: {e['url']}" if e["url"] else "")
-    L+=["BEGIN:VEVENT",f"UID:{uid}","DTSTAMP:20261111T190000Z",
-        f"DTSTART;VALUE=DATE:{e['date']:%Y%m%d}",f"DTEND;VALUE=DATE:{e['date']+dt.timedelta(1):%Y%m%d}",
-        "SUMMARY:"+esc(e["title"]),"DESCRIPTION:"+esc(desc),"CATEGORIES:"+esc(e["cat"]),"TRANSP:TRANSPARENT"]
-    if e["url"]: L.append("URL:"+e["url"])
-    for a in e["alarms"]:
-        trig = "PT9H" if a==0 else (f"-P{a-1}DT15H" if a>1 else "-PT15H")
-        L+=["BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:"+esc(e["title"]),f"TRIGGER:{trig}","END:VALARM"]
-    L.append("END:VEVENT")
-L.append("END:VCALENDAR")
-open("latvija-termini-2027.ics","w",newline="",encoding="utf-8").write("\r\n".join(fold(x) for x in L)+"\r\n")
-for e in sorted(E,key=lambda x:x["date"]): print(e["date"],WD[e["date"].weekday()],e["title"])

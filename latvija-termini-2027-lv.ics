@@ -1,0 +1,424 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Iedzivotaja termini//LV 2027//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Latvijas iedzīvotāja termiņi 2027
+X-WR-TIMEZONE:Europe/Riga
+X-WR-CALDESC:Deklarācija\, nekustamā īpašuma nodoklis\, darba dienas\, 
+ skolas un bērnudārzi (Rīga). Pārbaudīts 11.11.2026.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:63bab9942d02fba4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:NĪN: jāatnāk paziņojumam par 2027. gada nodokli
+DESCRIPTION:Pašvaldība paziņo nodokļa summu līdz 15. februārim (e-adr
+ esē\, e-pastā vai pa pastu). Ja paziņojums nav saņemts\, īpašniekam 
+ mēneša laikā rakstveidā jāinformē pašvaldība. Rīgā: pip.riga.lv\
+ , tālr. 80000850.\n\nAvots: https://pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: jāatnāk paziņojumam par 2027. gada nodokli
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a8e22e4f4179afd@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deklarācija: sākas GID pieņemšana par 2026. gadu (EDS)
+DESCRIPTION:No 1. marta EDS var iesniegt gada ienākumu deklarāciju par 20
+ 26. gadu. Brīvprātīgo deklarāciju (atmaksa par ārstēšanu\, mācīb
+ ām u. c.) var iesniegt trīs gadu laikā. Ja kopējie ienākumi gadā pā
+ rsniedz 105 300 EUR\, pieņemšana sākas 1. aprīlī.\n\nAvots: https://w
+ ww.vid.gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: sākas GID pieņemšana par 2026. gadu (EDS)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a19c3c9d55aa97@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:NĪN: 1. nekustamā īpašuma nodokļa maksājums
+DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
+ ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). Var samaksāt u
+ zreiz par visu gadu. Par nokavējumu tiek aprēķināta nokavējuma nauda 
+ 0\,05% dienā.\n\nAvots: https://pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 1. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 1. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:373ca8de0a1185b1@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Bērnudārzi (Rīga): sākas grupu komplektēšana 1. septembrim
+DESCRIPTION:Pēc iepriekšējo gadu prakses no 1. maija līdz 31. augustam 
+ bērnudārzi sūta uzaicinājumus bērniem\, kuru vēlamais uzsākšanas d
+ atums ir līdz 1. septembrim. Līdz šim datumam pārbaudiet pieteikumu po
+ rtālā latvija.gov.lv: izvēlētie bērnudārzi\, uzsākšanas datums\, k
+ ontakti. Uz uzaicinājumu jāatbild noteiktā termiņā (iepriekšējos ga
+ dos — 15 dienās)\, citādi pieteikums tiek anulēts. Reģistrācija rin
+ dā notiek visu gadu. 2027. gada datumus precizējiet iksd.riga.lv.\n\nAvo
+ ts: https://iksd.riga.lv
+CATEGORIES:Skolas un bērnudārzi
+TRANSP:TRANSPARENT
+URL:https://iksd.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bērnudārzi (Rīga): sākas grupu komplektēšana 1. septembri
+ m
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bērnudārzi (Rīga): sākas grupu komplektēšana 1. septembri
+ m
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a6c09e294ae2116@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Parasta darba diena (2027. gadā pārcelšanas nav)
+DESCRIPTION:Diena starp svētdienu\, 2. maiju\, un svētku dienu 4. maiju. 
+ Pēc Labklājības ministrijas informācijas (2026. gada oktobrī) darba d
+ ienas 2027. gadā netiek pārceltas: Ministru kabineta rīkojums nav pieņ
+ emts. Darba devējs brīvdienu var noteikt pēc saviem ieskatiem.\n\nAvots
+ : https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelta
+ s/31835
+CATEGORIES:Darba dienas
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Parasta darba diena (2027. gadā pārcelšanas nav)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:77c270307e970c46@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:NĪN: 2. nekustamā īpašuma nodokļa maksājums
+DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
+ ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). 15. maijs 2027 
+ ir sestdiena\, termiņš pārceļas uz pirmdienu\, 17. maiju. Par nokavēj
+ umu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nAvots: https://
+ pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e92eebd61ef2b687@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:1. klase (Rīga): pēdējais pieteikuma reģistrācijas termiņš
+DESCRIPTION:Skolas veido 1. klases pretendentu sarakstus pēc pieteikumiem\
+ , kas reģistrēti līdz 15. maijam (ne vairāk kā piecās skolās). 15. 
+ maijs 2027 ir sestdiena: iesniedziet pieteikumu ne vēlāk kā piektdien\,
+  14. maijā. Pēc saraksta izveides skola 5 darba dienu laikā nosūta paz
+ iņojumu\; uz to jāatbild 10 kalendāro dienu laikā\, citādi vieta tiek
+  piedāvāta nākamajam.\n\nAvots: https://likumi.lv/ta/id/341736
+CATEGORIES:Skolas un bērnudārzi
+TRANSP:TRANSPARENT
+URL:https://likumi.lv/ta/id/341736
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1. klase (Rīga): pēdējais pieteikuma reģistrācijas termiņ
+ š
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1. klase (Rīga): pēdējais pieteikuma reģistrācijas termiņ
+ š
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1. klase (Rīga): pēdējais pieteikuma reģistrācijas termiņ
+ š
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:861a49b0e0276fd3@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Deklarācija: pēdējais obligātās GID iesniegšanas termiņš pa
+ r 2026. gadu
+DESCRIPTION:Pēdējā diena tiem\, kam deklarācija jāiesniedz obligāti (
+ saimnieciskā darbība\, ienākumi ārvalstīs\, nodokļa piemaksa u. c.) 
+ un kuru 2026. gada ienākumi nepārsniedz 105 300 EUR. Ja ienākumi lielā
+ ki — termiņš ir 1. jūlijs.\n\nAvots: https://www.vid.gov.lv/lv/gada-i
+ enakumu-deklaracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: pēdējais obligātās GID iesniegšanas termiņ
+ š par 2026. gadu
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: pēdējais obligātās GID iesniegšanas termiņ
+ š par 2026. gadu
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: pēdējais obligātās GID iesniegšanas termiņ
+ š par 2026. gadu
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:81767e8cfcaea932@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:1. klase (Rīga): skolas pabeidz komplektēšanu
+DESCRIPTION:Līdz 1. jūnijam skolām jāpabeidz 1. klašu komplektēšana.
+  Sekojiet e-adresei un pastam: uz uzaicinājumu jāatbild 10 kalendāro di
+ enu laikā. Saraksti mainās visu jūniju\, kad citi atsakās no vietām.\
+ n\nAvots: https://likumi.lv/ta/id/341736
+CATEGORIES:Skolas un bērnudārzi
+TRANSP:TRANSPARENT
+URL:https://likumi.lv/ta/id/341736
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1. klase (Rīga): skolas pabeidz komplektēšanu
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:33bf5e7a68bfe3ae@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Deklarācija: IIN piemaksas termiņš (vai 1. daļa)
+DESCRIPTION:Aprēķinātā nodokļa samaksas termiņš\, ja ienākumi līdz
+  105 300 EUR. Ja summa pārsniedz 640 EUR\, to var sadalīt trīs daļās:
+  23. jūnijs\, 23. jūlijs\, 23. augusts. 23.–24. jūnijs ir svētku die
+ nas. Parasti šādā gadījumā termiņš pārceļas uz nākamo darba dien
+ u (piektdiena\, 25. jūnijs)\, taču oficiālu apstiprinājumu šim gadam 
+ neatradu: drošāk samaksāt iepriekš.\n\nAvots: https://www.vid.gov.lv/l
+ v/gada-ienakumu-deklaracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: IIN piemaksas termiņš (vai 1. daļa)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: IIN piemaksas termiņš (vai 1. daļa)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7526d975bb57c4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Parasta darba diena (2027. gadā pārcelšanas nav)
+DESCRIPTION:Diena pēc Jāņu svētkiem\, 23.–24. jūnijā. Pēc Labklāj
+ ības ministrijas informācijas (2026. gada oktobrī) darba dienas 2027. g
+ adā netiek pārceltas: Ministru kabineta rīkojums nav pieņemts. Darba d
+ evējs brīvdienu var noteikt pēc saviem ieskatiem.\n\nAvots: https://ifi
+ nanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parceltas/31835
+CATEGORIES:Darba dienas
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Parasta darba diena (2027. gadā pārcelšanas nav)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41955cdd2a39417e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
+DESCRIPTION:Obligātā GID par 2026. gadu tiem\, kuru kopējie ienākumi p
+ ārsniedza 105 300 EUR (pieņemšana no 1. aprīļa līdz 1. jūlijam). No
+ dokļa piemaksa šajā gadījumā — līdz 23. jūlijam (vai trīs daļā
+ s: 23. jūlijs\, 23. augusts\, 23. septembris).\n\nAvots: https://www.vid.
+ gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa03e7ca064c75c@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Deklarācija: 2. IIN piemaksas daļa
+DESCRIPTION:Otrā daļa\, ja maksājamais nodoklis pārsniedz 640 EUR un ti
+ ek maksāts trīs daļās (ienākumi līdz 105 300 EUR). Ja ienākumi virs
+  105 300 EUR — tas ir vienotā maksājuma vai pirmās daļas termiņš.\
+ n\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: 2. IIN piemaksas daļa
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39a42a3d6a6f2383@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:NĪN: 3. nekustamā īpašuma nodokļa maksājums
+DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
+ ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). 15. augusts 202
+ 7 ir svētdiena\, termiņš pārceļas uz pirmdienu\, 16. augustu. Par nok
+ avējumu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nAvots: htt
+ ps://pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 3. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 3. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a7bcbee85bac6e6@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Deklarācija: 3. IIN piemaksas daļa
+DESCRIPTION:Pēdējā piemaksas daļa\, maksājot trīs daļās (ienākumi 
+ līdz 105 300 EUR).\n\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-dekl
+ aracija
+CATEGORIES:Deklarācija
+TRANSP:TRANSPARENT
+URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Deklarācija: 3. IIN piemaksas daļa
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7c52cb14b0f0f5c0@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:NĪN: 4. nekustamā īpašuma nodokļa maksājums
+DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
+ ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). Gada pēdējais
+  maksājums. Par nokavējumu tiek aprēķināta nokavējuma nauda 0\,05% d
+ ienā.\n\nAvots: https://pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 4. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 4. nekustamā īpašuma nodokļa maksājums
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd6277bbeb544b2@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:Parasta darba diena (2027. gadā pārcelšanas nav)
+DESCRIPTION:Diena pēc Proklamēšanas dienas\, 18. novembra. Pēc Labklāj
+ ības ministrijas informācijas (2026. gada oktobrī) darba dienas 2027. g
+ adā netiek pārceltas: Ministru kabineta rīkojums nav pieņemts. Darba d
+ evējs brīvdienu var noteikt pēc saviem ieskatiem.\n\nAvots: https://ifi
+ nanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parceltas/31835
+CATEGORIES:Darba dienas
+TRANSP:TRANSPARENT
+URL:https://ifinanses.lv/zinas/actual-2027-gada-darba-dienas-netiek-parcelt
+ as/31835
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Parasta darba diena (2027. gadā pārcelšanas nav)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
