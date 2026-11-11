@@ -18,7 +18,8 @@ SUMMARY:NĪN: jāatnāk paziņojumam par 2027. gada nodokli
 DESCRIPTION:Pašvaldība paziņo nodokļa summu līdz 15. februārim (e-adr
  esē\, e-pastā vai pa pastu). Ja paziņojums nav saņemts\, īpašniekam 
  mēneša laikā rakstveidā jāinformē pašvaldība. Rīgā: pip.riga.lv\
- , tālr. 80000850.\n\nAvots: https://pip.riga.lv
+ , tālr. 80000850.\n\nKur iesniegt vai samaksāt: Nekustamā īpašuma nod
+ oklis Rīgā: pip.riga.lv: https://pip.riga.lv\nAvots: https://pip.riga.lv
 CATEGORIES:Nekustamā īpašuma nodoklis
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -37,11 +38,12 @@ SUMMARY:Deklarācija: sākas GID pieņemšana par 2026. gadu (EDS)
 DESCRIPTION:No 1. marta EDS var iesniegt gada ienākumu deklarāciju par 20
  26. gadu. Brīvprātīgo deklarāciju (atmaksa par ārstēšanu\, mācīb
  ām u. c.) var iesniegt trīs gadu laikā. Ja kopējie ienākumi gadā pā
- rsniedz 105 300 EUR\, pieņemšana sākas 1. aprīlī.\n\nAvots: https://w
- ww.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ rsniedz 105 300 EUR\, pieņemšana sākas 1. aprīlī.\n\nKur iesniegt vai
+  samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/login
+ /\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: sākas GID pieņemšana par 2026. gadu (EDS)
@@ -57,7 +59,8 @@ SUMMARY:NĪN: 1. nekustamā īpašuma nodokļa maksājums
 DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
  ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). Var samaksāt u
  zreiz par visu gadu. Par nokavējumu tiek aprēķināta nokavējuma nauda 
- 0\,05% dienā.\n\nAvots: https://pip.riga.lv
+ 0\,05% dienā.\n\nKur iesniegt vai samaksāt: Nekustamā īpašuma nodokli
+ s Rīgā: pip.riga.lv: https://pip.riga.lv\nAvots: https://pip.riga.lv
 CATEGORIES:Nekustamā īpašuma nodoklis
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -84,11 +87,13 @@ DESCRIPTION:Pēc iepriekšējo gadu prakses no 1. maija līdz 31. augustam
  rtālā latvija.gov.lv: izvēlētie bērnudārzi\, uzsākšanas datums\, k
  ontakti. Uz uzaicinājumu jāatbild noteiktā termiņā (iepriekšējos ga
  dos — 15 dienās)\, citādi pieteikums tiek anulēts. Reģistrācija rin
- dā notiek visu gadu. 2027. gada datumus precizējiet iksd.riga.lv.\n\nAvo
- ts: https://iksd.riga.lv
+ dā notiek visu gadu. 2027. gada datumus precizējiet iksd.riga.lv.\n\nKur
+  iesniegt vai samaksāt: Pieteikt bērnu: latvija.gov.lv\, pakalpojums “
+ Bērna reģistrācija pirmsskolu iestāžu rindā”: https://latvija.gov.
+ lv\nAvots: https://iksd.riga.lv
 CATEGORIES:Skolas un bērnudārzi
 TRANSP:TRANSPARENT
-URL:https://iksd.riga.lv
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Bērnudārzi (Rīga): sākas grupu komplektēšana 1. septembri
@@ -133,8 +138,9 @@ SUMMARY:NĪN: 2. nekustamā īpašuma nodokļa maksājums
 DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
  ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). 15. maijs 2027 
  ir sestdiena\, termiņš pārceļas uz pirmdienu\, 17. maiju. Par nokavēj
- umu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nAvots: https://
- pip.riga.lv
+ umu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nKur iesniegt va
+ i samaksāt: Nekustamā īpašuma nodoklis Rīgā: pip.riga.lv: https://pi
+ p.riga.lv\nAvots: https://pip.riga.lv
 CATEGORIES:Nekustamā īpašuma nodoklis
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -160,10 +166,12 @@ DESCRIPTION:Skolas veido 1. klases pretendentu sarakstus pēc pieteikumiem\
  maijs 2027 ir sestdiena: iesniedziet pieteikumu ne vēlāk kā piektdien\,
   14. maijā. Pēc saraksta izveides skola 5 darba dienu laikā nosūta paz
  iņojumu\; uz to jāatbild 10 kalendāro dienu laikā\, citādi vieta tiek
-  piedāvāta nākamajam.\n\nAvots: https://likumi.lv/ta/id/341736
+  piedāvāta nākamajam.\n\nKur iesniegt vai samaksāt: Iesniegt pieteikum
+ u: latvija.gov.lv vai klātienē skolā: https://latvija.gov.lv\nAvots: ht
+ tps://likumi.lv/ta/id/341736
 CATEGORIES:Skolas un bērnudārzi
 TRANSP:TRANSPARENT
-URL:https://likumi.lv/ta/id/341736
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:1. klase (Rīga): pēdējais pieteikuma reģistrācijas termiņ
@@ -193,11 +201,12 @@ SUMMARY:Deklarācija: pēdējais obligātās GID iesniegšanas termiņš pa
 DESCRIPTION:Pēdējā diena tiem\, kam deklarācija jāiesniedz obligāti (
  saimnieciskā darbība\, ienākumi ārvalstīs\, nodokļa piemaksa u. c.) 
  un kuru 2026. gada ienākumi nepārsniedz 105 300 EUR. Ja ienākumi lielā
- ki — termiņš ir 1. jūlijs.\n\nAvots: https://www.vid.gov.lv/lv/gada-i
- enakumu-deklaracija
+ ki — termiņš ir 1. jūlijs.\n\nKur iesniegt vai samaksāt: Iesniegt va
+ i samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.v
+ id.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: pēdējais obligātās GID iesniegšanas termiņ
@@ -226,10 +235,12 @@ SUMMARY:1. klase (Rīga): skolas pabeidz komplektēšanu
 DESCRIPTION:Līdz 1. jūnijam skolām jāpabeidz 1. klašu komplektēšana.
   Sekojiet e-adresei un pastam: uz uzaicinājumu jāatbild 10 kalendāro di
  enu laikā. Saraksti mainās visu jūniju\, kad citi atsakās no vietām.\
- n\nAvots: https://likumi.lv/ta/id/341736
+ n\nKur iesniegt vai samaksāt: Atbildēt skolai: paziņojums nāks uz e-ad
+ resi (latvija.gov.lv) vai e-pastu: https://latvija.gov.lv\nAvots: https://
+ likumi.lv/ta/id/341736
 CATEGORIES:Skolas un bērnudārzi
 TRANSP:TRANSPARENT
-URL:https://likumi.lv/ta/id/341736
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:1. klase (Rīga): skolas pabeidz komplektēšanu
@@ -247,11 +258,12 @@ DESCRIPTION:Aprēķinātā nodokļa samaksas termiņš\, ja ienākumi līdz
   23. jūnijs\, 23. jūlijs\, 23. augusts. 23.–24. jūnijs ir svētku die
  nas. Parasti šādā gadījumā termiņš pārceļas uz nākamo darba dien
  u (piektdiena\, 25. jūnijs)\, taču oficiālu apstiprinājumu šim gadam 
- neatradu: drošāk samaksāt iepriekš.\n\nAvots: https://www.vid.gov.lv/l
- v/gada-ienakumu-deklaracija
+ neatradu: drošāk samaksāt iepriekš.\n\nKur iesniegt vai samaksāt: Ies
+ niegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https
+ ://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: IIN piemaksas termiņš (vai 1. daļa)
@@ -293,11 +305,12 @@ SUMMARY:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
 DESCRIPTION:Obligātā GID par 2026. gadu tiem\, kuru kopējie ienākumi p
  ārsniedza 105 300 EUR (pieņemšana no 1. aprīļa līdz 1. jūlijam). No
  dokļa piemaksa šajā gadījumā — līdz 23. jūlijam (vai trīs daļā
- s: 23. jūlijs\, 23. augusts\, 23. septembris).\n\nAvots: https://www.vid.
- gov.lv/lv/gada-ienakumu-deklaracija
+ s: 23. jūlijs\, 23. augusts\, 23. septembris).\n\nKur iesniegt vai samaks
+ āt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvot
+ s: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: termiņš\, ja ienākumi pārsniedz 105 300 EUR
@@ -323,10 +336,12 @@ SUMMARY:Deklarācija: 2. IIN piemaksas daļa
 DESCRIPTION:Otrā daļa\, ja maksājamais nodoklis pārsniedz 640 EUR un ti
  ek maksāts trīs daļās (ienākumi līdz 105 300 EUR). Ja ienākumi virs
   105 300 EUR — tas ir vienotā maksājuma vai pirmās daļas termiņš.\
- n\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://e
+ ds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-dekla
+ racija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: 2. IIN piemaksas daļa
@@ -342,8 +357,9 @@ SUMMARY:NĪN: 3. nekustamā īpašuma nodokļa maksājums
 DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
  ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). 15. augusts 202
  7 ir svētdiena\, termiņš pārceļas uz pirmdienu\, 16. augustu. Par nok
- avējumu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nAvots: htt
- ps://pip.riga.lv
+ avējumu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nKur iesnie
+ gt vai samaksāt: Nekustamā īpašuma nodoklis Rīgā: pip.riga.lv: https
+ ://pip.riga.lv\nAvots: https://pip.riga.lv
 CATEGORIES:Nekustamā īpašuma nodoklis
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -365,11 +381,12 @@ DTSTART;VALUE=DATE:20270823
 DTEND;VALUE=DATE:20270824
 SUMMARY:Deklarācija: 3. IIN piemaksas daļa
 DESCRIPTION:Pēdējā piemaksas daļa\, maksājot trīs daļās (ienākumi 
- līdz 105 300 EUR).\n\nAvots: https://www.vid.gov.lv/lv/gada-ienakumu-dekl
- aracija
+ līdz 105 300 EUR).\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt 
+ EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv
+ /gada-ienakumu-deklaracija
 CATEGORIES:Deklarācija
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Deklarācija: 3. IIN piemaksas daļa
@@ -385,7 +402,8 @@ SUMMARY:NĪN: 4. nekustamā īpašuma nodokļa maksājums
 DESCRIPTION:Ceturtā daļa no gada nodokļa summas (likumā noteiktie termi
  ņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). Gada pēdējais
   maksājums. Par nokavējumu tiek aprēķināta nokavējuma nauda 0\,05% d
- ienā.\n\nAvots: https://pip.riga.lv
+ ienā.\n\nKur iesniegt vai samaksāt: Nekustamā īpašuma nodoklis Rīgā
+ : pip.riga.lv: https://pip.riga.lv\nAvots: https://pip.riga.lv
 CATEGORIES:Nekustamā īpašuma nodoklis
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv

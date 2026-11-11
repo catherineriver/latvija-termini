@@ -22,8 +22,9 @@ DESCRIPTION:Самоуправление сообщает сумму нал
  mail или почта). Если уведомление не пришло
  \, владелец обязан в течение месяца письм
  енно сообщить об этом самоуправлению. Ри
- га: pip.riga.lv\, тел. 80000850.\n\nИсточник: https://pip.rig
- a.lv
+ га: pip.riga.lv\, тел. 80000850.\n\nГде подать или опл
+ атить: Налог на недвижимость в Риге: pip.riga
+ .lv: https://pip.riga.lv\nИсточник: https://pip.riga.lv
 CATEGORIES:Налог на недвижимость
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -46,11 +47,12 @@ DESCRIPTION:С 1 марта в EDS можно подать годовую
  ьную (возврат за лечение\, обучение и т.п.)
   можно подать в течение трёх лет. Если об
  щий доход за год больше 105 300 EUR\, приём — с
-  1 апреля.\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienak
- umu-deklaracija
+  1 апреля.\n\nГде подать или оплатить: Пода
+ ть или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\n
+ Источник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: открыт приём GID за 2026 г
@@ -68,8 +70,9 @@ DESCRIPTION:Четверть годовой суммы налога на н
  едвижимость (сроки по закону: 31 марта\, 15 
  мая\, 15 августа\, 15 ноября). Можно заплатит
  ь сразу за весь год. За просрочку начисля
- ются пени 0\,05% в день.\n\nИсточник: https://pip.rig
- a.lv
+ ются пени 0\,05% в день.\n\nГде подать или опл
+ атить: Налог на недвижимость в Риге: pip.riga
+ .lv: https://pip.riga.lv\nИсточник: https://pip.riga.lv
 CATEGORIES:Налог на недвижимость
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -102,11 +105,13 @@ DESCRIPTION:По практике прошлых лет с 1 мая по 31
  етить в отведённый срок (в прошлые годы 
  — 15 дней)\, иначе заявка аннулируется. За
  пись в очередь идёт круглый год. Даты на 2
- 027 год уточняйте на iksd.riga.lv.\n\nИсточник: http
- s://iksd.riga.lv
+ 027 год уточняйте на iksd.riga.lv.\n\nГде подать и
+ ли оплатить: Записать ребёнка: latvija.gov.lv\, 
+ услуга «Bērna reģistrācija pirmsskolu iestāžu rindā»: https:
+ //latvija.gov.lv\nИсточник: https://iksd.riga.lv
 CATEGORIES:Школы и садики
 TRANSP:TRANSPARENT
-URL:https://iksd.riga.lv
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Садики (Рига): начало комплектован
@@ -157,7 +162,9 @@ DESCRIPTION:Четверть годовой суммы налога на н
  мая\, 15 августа\, 15 ноября). 15 мая 2027 — субб
  ота\, срок переходит на понедельник 17 мая
  . За просрочку начисляются пени 0\,05% в ден
- ь.\n\nИсточник: https://pip.riga.lv
+ ь.\n\nГде подать или оплатить: Налог на нед
+ вижимость в Риге: pip.riga.lv: https://pip.riga.lv\nИсто
+ чник: https://pip.riga.lv
 CATEGORIES:Налог на недвижимость
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -189,11 +196,13 @@ DESCRIPTION:Школы формируют списки претендент
  ка школа в течение 5 рабочих дней присыла
  ет уведомление\; на него нужно ответить з
  а 10 календарных дней\, иначе место предла
- гают следующему.\n\nИсточник: https://likumi.lv/ta/i
- d/341736
+ гают следующему.\n\nГде подать или оплати
+ ть: Подать заявку: latvija.gov.lv или лично в шк
+ оле: https://latvija.gov.lv\nИсточник: https://likumi.lv/ta/id/
+ 341736
 CATEGORIES:Школы и садики
 TRANSP:TRANSPARENT
-URL:https://likumi.lv/ta/id/341736
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:1-й класс (Рига): крайний срок регис
@@ -225,10 +234,12 @@ DESCRIPTION:Последний день для тех\, кому декла
  ьность\, доходы из-за границы\, доплата на
  лога и т.д.) и чей доход за 2026 год не превы
  шает 105 300 EUR. При доходе выше — срок 1 июля
- .\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ .\n\nГде подать или оплатить: Подать или оп
+ латить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник
+ : https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: крайний срок обязател
@@ -259,11 +270,13 @@ DESCRIPTION:К 1 июня школы должны укомплектова
  ть первые классы. Следите за e-adrese и почто
  й: на приглашение отвечают в течение 10 ка
  лендарных дней. Списки продолжают менят
- ься весь июнь по мере отказов.\n\nИсточник
- : https://likumi.lv/ta/id/341736
+ ься весь июнь по мере отказов.\n\nГде пода
+ ть или оплатить: Ответить школе: уведомл
+ ение придёт на e-adrese (latvija.gov.lv) или e-mail: https:
+ //latvija.gov.lv\nИсточник: https://likumi.lv/ta/id/341736
 CATEGORIES:Школы и садики
 TRANSP:TRANSPARENT
-URL:https://likumi.lv/ta/id/341736
+URL:https://latvija.gov.lv
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:1-й класс (Рига): школы завершают ко
@@ -286,11 +299,13 @@ DESCRIPTION:Срок уплаты рассчитанного по декл
  ком случае переносится на следующий раб
  очий день (пятница 25 июня)\, но официально
  го подтверждения для этого года я не наш
- ёл: надёжнее заплатить заранее.\n\nИсточн
- ик: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ ёл: надёжнее заплатить заранее.\n\nГде под
+ ать или оплатить: Подать или оплатить в ED
+ S (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.
+ gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: срок доплаты IIN (или 1-я 
@@ -341,11 +356,13 @@ DESCRIPTION:Обязательная GID за 2026 год для тех\,
  чей общий доход превысил 105 300 EUR (приём с 1
   апреля по 1 июля). Доплата налога в этом с
  лучае — до 23 июля (либо тремя частями: 23 и
- юля\, 23 августа\, 23 сентября).\n\nИсточник: ht
- tps://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ юля\, 23 августа\, 23 сентября).\n\nГде подать 
+ или оплатить: Подать или оплатить в EDS (VID)
+ : https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.gov.lv/
+ lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: крайний срок при доход
@@ -375,11 +392,12 @@ DESCRIPTION:Вторая часть доплаты\, если налог к
   уплате больше 640 EUR и платится тремя част
  ями (доход до 105 300 EUR). Для дохода выше 105 300
   EUR — это срок единого платежа или первой
-  трети.\n\nИсточник: https://www.vid.gov.lv/lv/gada-ienakumu-
- deklaracija
+  трети.\n\nГде подать или оплатить: Подать 
+ или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИс
+ точник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: 2-я треть доплаты IIN
@@ -397,7 +415,9 @@ DESCRIPTION:Четверть годовой суммы налога на н
  мая\, 15 августа\, 15 ноября). 15 августа 2027 — 
  воскресенье\, срок переходит на понедель
  ник 16 августа. За просрочку начисляются 
- пени 0\,05% в день.\n\nИсточник: https://pip.riga.lv
+ пени 0\,05% в день.\n\nГде подать или оплатит
+ ь: Налог на недвижимость в Риге: pip.riga.lv: htt
+ ps://pip.riga.lv\nИсточник: https://pip.riga.lv
 CATEGORIES:Налог на недвижимость
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv
@@ -421,11 +441,13 @@ DTSTART;VALUE=DATE:20270823
 DTEND;VALUE=DATE:20270824
 SUMMARY:Декларация: 3-я треть доплаты IIN
 DESCRIPTION:Последняя часть доплаты при оплат
- е тремя частями (доход до 105 300 EUR).\n\nИсточ
- ник: https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+ е тремя частями (доход до 105 300 EUR).\n\nГде по
+ дать или оплатить: Подать или оплатить в 
+ EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vi
+ d.gov.lv/lv/gada-ienakumu-deklaracija
 CATEGORIES:Декларация
 TRANSP:TRANSPARENT
-URL:https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija
+URL:https://eds.vid.gov.lv/login/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Декларация: 3-я треть доплаты IIN
@@ -442,7 +464,9 @@ DESCRIPTION:Четверть годовой суммы налога на н
  едвижимость (сроки по закону: 31 марта\, 15 
  мая\, 15 августа\, 15 ноября). Последний плат
  ёж года. За просрочку начисляются пени 0\,
- 05% в день.\n\nИсточник: https://pip.riga.lv
+ 05% в день.\n\nГде подать или оплатить: Нало
+ г на недвижимость в Риге: pip.riga.lv: https://pip.rig
+ a.lv\nИсточник: https://pip.riga.lv
 CATEGORIES:Налог на недвижимость
 TRANSP:TRANSPARENT
 URL:https://pip.riga.lv

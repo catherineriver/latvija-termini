@@ -1,0 +1,777 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Iedzivotaja termini//LV 2027//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Latvijas pašnodarbināto termiņi 2027
+X-WR-TIMEZONE:Europe/Riga
+X-WR-CALDESC:Ceturkšņa ziņojumi un VSAOI\, MUN\, PVN. Pārbaudīts 11.11
+ .2026.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e0b727d28fd8c148@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:MUN: pēdējais termiņš pieteikumam pāriet uz mikrouzņēmuma no
+ dokli no 2027. gada
+DESCRIPTION:Lai no cita režīma pārietu uz mikrouzņēmumu nodokli (MUN)\
+ , pieteikums VID jāiesniedz līdz iepriekšējā gada 15. decembrim. Pēc
+  trešo pušu avotu datiem MUN pieejams\, ja gada apgrozījums nepārsnied
+ z 50 000 EUR. Nosacījumus pārbaudiet VID.\n\nKur iesniegt vai samaksāt:
+  Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: h
+ ttps://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: pēdējais termiņš pieteikumam pāriet uz mikrouzņēmum
+ a nodokli no 2027. gada
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: pēdējais termiņš pieteikumam pāriet uz mikrouzņēmum
+ a nodokli no 2027. gada
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: pēdējais termiņš pieteikumam pāriet uz mikrouzņēmum
+ a nodokli no 2027. gada
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0833880676517d1e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Pašnodarbinātā ziņojums par 2026. gada 4. ceturksni
+DESCRIPTION:Pašnodarbinātā ceturkšņa ziņojums EDS jāiesniedz līdz 1
+ 7. janvārim. 17. janvāris ir svētdiena. Parasti termiņš pārceļas uz
+  nākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 15. janv
+ ārim. VSAOI jāsamaksā līdz 23. datumam. Vispārējā kārtība.\n\nKur
+  iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid
+ .gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2026. gada 4. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2026. gada 4. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43c016abef069564@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:MUN: deklarācija par 2026. gada 4. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodokļa maksātāja ceturkšņa deklarācija E
+ DS jāiesniedz līdz 15. janvārim. Nodoklis (25%: 20% IIN un 80% VSAOI) j
+ āsamaksā līdz 23. datumam.\n\nKur iesniegt vai samaksāt: Iesniegt vai 
+ samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid
+ .gov.lv/lv/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2026. gada 4. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2026. gada 4. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8d6c8671c87b1d8@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:PVN: deklarācija par 2026. gada decembri (samaksa līdz 23. datuma
+ m)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. janvārim). Nodoklis jāsamaksā līdz nāka
+ mā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja
+  jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūli
+ jā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS
+  (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/me
+ dia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2026. gada decembri (samaksa līdz 23. da
+ tumam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd5d07f3620ce77@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:MUN: nodokļa maksājums par 2026. gada 4. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodoklis jāsamaksā vienotajā nodokļu kontā
+  līdz 23. janvārim. 23. janvāris ir sestdiena. Parasti termiņš pārce
+ ļas uz nākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 2
+ 2. janvārim.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (V
+ ID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media
+ /30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2026. gada 4. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2026. gada 4. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e01b2c2589cceb9f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Pašnodarbinātie: VSAOI maksājums par 2026. gada 4. ceturksni
+DESCRIPTION:Pašnodarbinātā VSAOI jāsamaksā vienotajā nodokļu kontā 
+ līdz 23. janvārim. 23. janvāris ir sestdiena\; VID kā termiņu norāda
+  25. janvāri. Likme 31\,07% no mēneša bāzes\, ne mazāk kā 780 EUR\, 
+ ja ienākumi no 780 EUR mēnesī (2026. gada parametri\, 2027. gadam preci
+ zējiet). Obligāto minimālo iemaksu kopš 2026. gada nav.\n\nKur iesnieg
+ t vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/
+ login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2026. gada 4. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2026. gada 4. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c13c2e04367f8a47@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:PVN: deklarācija par 2027. gada janvāri (samaksa līdz 23. datuma
+ m)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. februārim). 20. februāris ir sestdiena. Pa
+ rasti termiņš pārceļas uz nākamo darba dienu\, taču drošāk paspēt
+  līdz piektdienai\, 19. februārim. Nodoklis jāsamaksā līdz nākamā m
+ ēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja jums
+  ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā u
+ n oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID
+ ): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/2
+ 299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada janvāri (samaksa līdz 23. da
+ tumam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:38b941dc37875fcf@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:PVN: deklarācija par 2027. gada februāri (samaksa līdz 23. datum
+ am)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. martam). 20. marts ir sestdiena. Parasti ter
+ miņš pārceļas uz nākamo darba dienu\, taču drošāk paspēt līdz pi
+ ektdienai\, 19. martam. Nodoklis jāsamaksā līdz nākamā mēneša 23. d
+ atumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja jums ceturkšņa 
+ periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā un oktobrī.\n
+ \nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://ed
+ s.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada februāri (samaksa līdz 23. d
+ atumam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3e39babb39ba299@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:MUN: deklarācija par 2027. gada 1. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodokļa maksātāja ceturkšņa deklarācija E
+ DS jāiesniedz līdz 15. aprīlim. Nodoklis (25%: 20% IIN un 80% VSAOI) j
+ āsamaksā līdz 23. datumam.\n\nKur iesniegt vai samaksāt: Iesniegt vai 
+ samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid
+ .gov.lv/lv/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 1. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 1. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5e7344efdc015fb@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Pašnodarbinātā ziņojums par 2027. gada 1. ceturksni
+DESCRIPTION:Pašnodarbinātā ceturkšņa ziņojums EDS jāiesniedz līdz 1
+ 7. aprīlim. 17. aprīlis ir sestdiena. Parasti termiņš pārceļas uz n
+ ākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 16. aprīl
+ im. VSAOI jāsamaksā līdz 23. datumam. Vispārējā kārtība.\n\nKur ie
+ sniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.go
+ v.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 1. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 1. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b21c2faf25efee54@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:PVN: deklarācija par 2027. gada martu (samaksa līdz 23. datumam)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. aprīlim). Nodoklis jāsamaksā līdz nākam
+ ā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja 
+ jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlij
+ ā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS 
+ (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/med
+ ia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada martu (samaksa līdz 23. datum
+ am)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5a01bc5582c3e6e9@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Pašnodarbinātie: VSAOI maksājums par 2027. gada 1. ceturksni
+DESCRIPTION:Pašnodarbinātā VSAOI jāsamaksā vienotajā nodokļu kontā 
+ līdz 23. aprīlim. Likme 31\,07% no mēneša bāzes\, ne mazāk kā 780 E
+ UR\, ja ienākumi no 780 EUR mēnesī (2026. gada parametri\, 2027. gadam 
+ precizējiet). Obligāto minimālo iemaksu kopš 2026. gada nav.\n\nKur ie
+ sniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.go
+ v.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 1. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 1. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c8268f5947a749e1@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:MUN: nodokļa maksājums par 2027. gada 1. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodoklis jāsamaksā vienotajā nodokļu kontā
+  līdz 23. aprīlim.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt
+  EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/l
+ v/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 1. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 1. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a746e96009916304@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:PVN: deklarācija par 2027. gada aprīli (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. maijam). Nodoklis jāsamaksā līdz nākamā
+  mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja ju
+ ms ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā
+  un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (V
+ ID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media
+ /2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada aprīli (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d90662a2e00ebb51@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:PVN: deklarācija par 2027. gada maiju (samaksa līdz 23. datumam)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. jūnijam). 20. jūnijs ir svētdiena. Parast
+ i termiņš pārceļas uz nākamo darba dienu\, taču drošāk paspēt lī
+ dz piektdienai\, 18. jūnijam. Nodoklis jāsamaksā līdz nākamā mēneš
+ a 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja jums cetur
+ kšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā un okto
+ brī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): htt
+ ps://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/2299/do
+ wnload
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada maiju (samaksa līdz 23. datum
+ am)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e217df9a4285aa56@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:MUN: deklarācija par 2027. gada 2. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodokļa maksātāja ceturkšņa deklarācija E
+ DS jāiesniedz līdz 15. jūlijam. Nodoklis (25%: 20% IIN un 80% VSAOI) j
+ āsamaksā līdz 23. datumam.\n\nKur iesniegt vai samaksāt: Iesniegt vai 
+ samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid
+ .gov.lv/lv/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 2. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 2. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00a859d9c5ff209a@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:Pašnodarbinātā ziņojums par 2027. gada 2. ceturksni
+DESCRIPTION:Pašnodarbinātā ceturkšņa ziņojums EDS jāiesniedz līdz 1
+ 7. jūlijam. 17. jūlijs ir sestdiena. Parasti termiņš pārceļas uz nā
+ kamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 16. jūlijam
+ . VSAOI jāsamaksā līdz 23. datumam. Vispārējā kārtība.\n\nKur iesn
+ iegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.
+ lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 2. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 2. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5389afc345abf131@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:PVN: deklarācija par 2027. gada jūniju (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. jūlijam). Nodoklis jāsamaksā līdz nākam
+ ā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja 
+ jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlij
+ ā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS 
+ (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/med
+ ia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada jūniju (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:63f961b2cc088a6b@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Pašnodarbinātie: VSAOI maksājums par 2027. gada 2. ceturksni
+DESCRIPTION:Pašnodarbinātā VSAOI jāsamaksā vienotajā nodokļu kontā 
+ līdz 23. jūlijam. Likme 31\,07% no mēneša bāzes\, ne mazāk kā 780 E
+ UR\, ja ienākumi no 780 EUR mēnesī (2026. gada parametri\, 2027. gadam 
+ precizējiet). Obligāto minimālo iemaksu kopš 2026. gada nav.\n\nKur ie
+ sniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.go
+ v.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 2. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 2. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a2980c91f00dbb7@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:MUN: nodokļa maksājums par 2027. gada 2. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodoklis jāsamaksā vienotajā nodokļu kontā
+  līdz 23. jūlijam.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt
+  EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/l
+ v/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 2. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 2. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5a3dc5ca7b91c093@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Pašnodarbinātie: minimālais nodoklis 50 EUR (ja attiecas)
+DESCRIPTION:Ja no saimnieciskās darbības ienākuma aprēķinātais IIN ne
+ pārsniedz 50 EUR\, līdz 23. jūlijam jāsamaksā minimālais nodoklis 50
+  EUR. Nav jāmaksā\, piemēram\, ja veiktas VSAOI par sevi kā pašnodarb
+ inātu personu. Pilns izņēmumu saraksts ir VID materiālā.\n\nKur iesni
+ egt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.l
+ v/login/\nAvots: https://www.vid.gov.lv/lv/media/1907/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: minimālais nodoklis 50 EUR (ja attiecas)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: minimālais nodoklis 50 EUR (ja attiecas)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d5115e018dc04e4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:PVN: deklarācija par 2027. gada jūliju (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. augustam). Nodoklis jāsamaksā līdz nākam
+ ā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja 
+ jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlij
+ ā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS 
+ (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/med
+ ia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada jūliju (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02d66e8f6e97b414@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270921
+SUMMARY:PVN: deklarācija par 2027. gada augustu (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. septembrim). Nodoklis jāsamaksā līdz nāk
+ amā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. J
+ a jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūl
+ ijā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt ED
+ S (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/m
+ edia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada augustu (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f71a7258f009ee3@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Pašnodarbinātā ziņojums par 2027. gada 3. ceturksni
+DESCRIPTION:Pašnodarbinātā ceturkšņa ziņojums EDS jāiesniedz līdz 1
+ 7. oktobrim. 17. oktobris ir svētdiena. Parasti termiņš pārceļas uz n
+ ākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 15. oktobr
+ im. VSAOI jāsamaksā līdz 23. datumam. Vispārējā kārtība.\n\nKur ie
+ sniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.go
+ v.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 3. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātā ziņojums par 2027. gada 3. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3fa082bfa33b06f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:MUN: deklarācija par 2027. gada 3. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodokļa maksātāja ceturkšņa deklarācija E
+ DS jāiesniedz līdz 15. oktobrim. Nodoklis (25%: 20% IIN un 80% VSAOI) j
+ āsamaksā līdz 23. datumam.\n\nKur iesniegt vai samaksāt: Iesniegt vai 
+ samaksāt EDS (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid
+ .gov.lv/lv/media/30731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 3. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: deklarācija par 2027. gada 3. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2f52bda22636910f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:PVN: deklarācija par 2027. gada septembri (samaksa līdz 23. datum
+ am)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. oktobrim). Nodoklis jāsamaksā līdz nākam
+ ā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja 
+ jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlij
+ ā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS 
+ (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/med
+ ia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada septembri (samaksa līdz 23. d
+ atumam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b1523b2c3c3e132@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:Pašnodarbinātie: VSAOI maksājums par 2027. gada 3. ceturksni
+DESCRIPTION:Pašnodarbinātā VSAOI jāsamaksā vienotajā nodokļu kontā 
+ līdz 23. oktobrim. 23. oktobris ir sestdiena. Parasti termiņš pārceļa
+ s uz nākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 22. 
+ oktobrim. Likme 31\,07% no mēneša bāzes\, ne mazāk kā 780 EUR\, ja ie
+ nākumi no 780 EUR mēnesī (2026. gada parametri\, 2027. gadam precizēji
+ et). Obligāto minimālo iemaksu kopš 2026. gada nav.\n\nKur iesniegt vai
+  samaksāt: Iesniegt vai samaksāt EDS (VID): https://eds.vid.gov.lv/login
+ /\nAvots: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Pašnodarbinātie · vispārējā kārtība
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 3. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pašnodarbinātie: VSAOI maksājums par 2027. gada 3. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6a2b1ae6af277495@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:MUN: nodokļa maksājums par 2027. gada 3. ceturksni
+DESCRIPTION:Mikrouzņēmuma nodoklis jāsamaksā vienotajā nodokļu kontā
+  līdz 23. oktobrim. 23. oktobris ir sestdiena. Parasti termiņš pārceļ
+ as uz nākamo darba dienu\, taču drošāk paspēt līdz piektdienai\, 22.
+  oktobrim.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID)
+ : https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/30
+ 731/download
+CATEGORIES:Pašnodarbinātie · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 3. ceturksni
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: nodokļa maksājums par 2027. gada 3. ceturksni
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c17dbbc994ad6d1e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:PVN: deklarācija par 2027. gada oktobri (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. novembrim). 20. novembris ir sestdiena. Para
+ sti termiņš pārceļas uz nākamo darba dienu\, taču drošāk paspēt l
+ īdz piektdienai\, 19. novembrim. Nodoklis jāsamaksā līdz nākamā mēn
+ eša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja jums ce
+ turkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā un o
+ ktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID): 
+ https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/2299
+ /download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada oktobri (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3d07bc20c2a43bec@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271220
+DTEND;VALUE=DATE:20271221
+SUMMARY:PVN: deklarācija par 2027. gada novembri (samaksa līdz 23. datuma
+ m)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. decembrim). Nodoklis jāsamaksā līdz nāka
+ mā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja
+  jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūli
+ jā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS
+  (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/me
+ dia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2027. gada novembri (samaksa līdz 23. da
+ tumam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

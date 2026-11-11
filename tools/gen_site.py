@@ -1,15 +1,21 @@
 import html, json, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
-import build, lv, ics
+import build, lv, ics, selfemployed, actions
 from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT); os.makedirs("lv", exist_ok=True)
 BASE = "https://catherineriver.github.io/latvija-termini/"
 ICS = {"ru": "latvija-termini-2027.ics", "lv": "latvija-termini-2027-lv.ics"}
 EVS = sorted(build.E, key=lambda x: x["date"])
-LVEV = [dict(e, title=t, desc=d, cat=lv.CAT[e["cat"]], uid_key=e["title"]) for e, (t, d) in zip(EVS, lv.EV)]
-RUEV = [dict(e, uid_key=e["title"]) for e in EVS]
-CATCLS = {"Декларация": "decl", "Налог на недвижимость": "nin", "Рабочие дни": "work", "Школы и садики": "school"}
+def A(a, i): return None if a is None else (a[i], a[2])
+RUEV = [dict(e, uid_key=e["title"], act=A(a, 0)) for e, a in zip(EVS, actions.MAIN)]
+LVEV = [dict(e, title=t, desc=d, cat=lv.CAT[e["cat"]], uid_key=e["title"], act=A(a, 1)) for e, (t, d), a in zip(EVS, lv.EV, actions.MAIN)]
+SE = selfemployed.EV
+SERU = [dict(e, uid_key=e["title"], act=A(actions.EDS, 0)) for e in SE]
+SELV = [dict(e, title=e["lv"][0], desc=e["lv"][1], cat=e["cat_lv"], uid_key=e["title"], act=A(actions.EDS, 1)) for e in SE]
+SEICS = {"ru": "selfemployed-2027.ics", "lv": "selfemployed-2027-lv.ics"}
+CATCLS = {"Декларация": "decl", "Налог на недвижимость": "nin", "Рабочие дни": "work", "Школы и садики": "school",
+          "Самозанятые · общий режим": "se", "Самозанятые · MUN": "mun", "PVN": "vat"}
 
 T = {
 "ru": dict(lang="ru", locale="ru_RU", path="", prefix="", other="lv", other_label="Latviski",
@@ -17,7 +23,7 @@ T = {
  wd=["пн","вт","ср","чт","пт","сб","вс"], src="источник", srcw="Источник",
  site="Календарь жителя Латвии",
  title="Календарь жителя Латвии 2027: декларация, налог на недвижимость, школы и садики",
- desc="Бесплатный календарь-подписка (.ics) со сроками 2027 года: декларация о доходах (GID), налог на недвижимость (NĪN), приём в 1-й класс и садики в Риге, переносы рабочих дней. Для Google, Apple и Outlook.",
+ desc="Бесплатный календарь-подписка (.ics) со сроками 2027 года: декларация о доходах (GID), налог на недвижимость (NĪN), приём в 1-й класс и садики в Риге, переносы рабочих дней. Есть отдельный календарь для самозанятых. Для Google, Apple и Outlook.",
  eyebrow="Latvija · 2027 · бесплатно", h1="Все сроки жителя Латвии в вашем календаре",
  lead="Декларация о доходах, налог на недвижимость, приём в школу и садик, рабочие дни. Подпишитесь один раз: сроки и напоминания появятся в Google, Apple или Outlook календаре.",
  b_g="Добавить в Google Календарь", b_a="Apple / Outlook", b_d="Скачать .ics",
@@ -40,7 +46,7 @@ T = {
  wd=["pr","ot","tr","ce","pk","se","sv"], src="avots", srcw="Avots",
  site="Latvijas iedzīvotāja kalendārs",
  title="Latvijas iedzīvotāja kalendārs 2027: deklarācija, nekustamā īpašuma nodoklis, skolas un bērnudārzi",
- desc="Bezmaksas kalendāra abonements (.ics) ar 2027. gada termiņiem: gada ienākumu deklarācija (GID), nekustamā īpašuma nodoklis (NĪN), pieteikšanās 1. klasē un bērnudārzos Rīgā, pārceltās darba dienas. Google, Apple un Outlook kalendāram.",
+ desc="Bezmaksas kalendāra abonements (.ics) ar 2027. gada termiņiem: gada ienākumu deklarācija (GID), nekustamā īpašuma nodoklis (NĪN), pieteikšanās 1. klasē un bērnudārzos Rīgā, pārceltās darba dienas. Ir atsevišķs kalendārs pašnodarbinātajiem. Google, Apple un Outlook kalendāram.",
  eyebrow="Latvija · 2027 · bez maksas", h1="Visi Latvijas iedzīvotāja termiņi jūsu kalendārā",
  lead="Ienākumu deklarācija, nekustamā īpašuma nodoklis, pieteikšanās skolā un bērnudārzā, darba dienas. Abonējiet vienreiz: termiņi un atgādinājumi parādīsies Google, Apple vai Outlook kalendārā.",
  b_g="Pievienot Google kalendāram", b_a="Apple / Outlook", b_d="Lejupielādēt .ics",
@@ -59,8 +65,35 @@ T = {
  og=("LATVIJA · 2027 · BEZ MAKSAS",["Visi Latvijas","iedzīvotāja termiņi","jūsu kalendārā"],"Deklarācija · NĪN · Skolas un bērnudārzi","Kalendāra abonements .ics"),
  events=LVEV),
 }
+SEXT = {
+"ru": dict(se_h="Календарь для самозанятых",
+ se_lead="Отдельная подписка с квартальными отчётами и взносами VSAOI, сроками MUN и декларациями PVN. Подпишитесь на неё в дополнение к основному календарю: годовая декларация (GID) и налог IIN уже есть в нём.",
+ se_note="Параметры (VSAOI 31,07% от базы не менее 780 EUR, IIN 25,5% и 33%) взяты из материалов VID за 2026 год, на 2027 год они могут измениться. С 2026 года обязательных минимальных взносов нет, а заранее сообщать VID ожидаемый доход больше не нужно. Если срок выпадает на выходной или праздник, событие стоит на последнем рабочем дне до него: по правилам срок обычно переносится вперёд, но надёжнее успеть заранее.",
+ se_more="Показать все сроки ({n})", se_calname="Дедлайны самозанятых Латвии 2027", se_caldesc="Квартальные отчёты и VSAOI, MUN, PVN. Сверено 11.11.2026.",
+ card_se=("Самозанятые","Отдельный календарь: отчёты и взносы, MUN, PVN, ссылки на EDS."), actw="Где подать или оплатить"),
+"lv": dict(se_h="Kalendārs pašnodarbinātajiem",
+ se_lead="Atsevišķs abonements ar ceturkšņa ziņojumiem un VSAOI, MUN termiņiem un PVN deklarācijām. Abonējiet to papildus galvenajam kalendāram: gada deklarācija (GID) un IIN tajā jau ir.",
+ se_note="Parametri (VSAOI 31,07% no bāzes ne mazāk kā 780 EUR, IIN 25,5% un 33%) ņemti no VID 2026. gada materiāliem, 2027. gadā tie var mainīties. Kopš 2026. gada obligāto minimālo iemaksu nav, un gaidāmos ienākumus iepriekš VID vairs nav jāpaziņo. Ja termiņš iekrīt brīvdienā vai svētku dienā, notikums ir pēdējā darba dienā pirms tās: parasti termiņš pārceļas uz priekšu, taču drošāk paspēt iepriekš.",
+ se_more="Rādīt visus termiņus ({n})", se_calname="Latvijas pašnodarbināto termiņi 2027", se_caldesc="Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Pārbaudīts 11.11.2026.",
+ card_se=("Pašnodarbinātie","Atsevišķs kalendārs: ziņojumi un iemaksas, MUN, PVN, saites uz EDS."), actw="Kur iesniegt vai samaksāt")}
 for k, t in T.items():
-    ics.write_ics(t["events"], ICS[k], t["calname"], t["caldesc"], t["srcw"])
+    t.update(SEXT[k]); t["se_events"] = SERU if k == "ru" else SELV
+    ics.write_ics(t["events"], ICS[k], t["calname"], t["caldesc"], t["srcw"], t["actw"])
+    ics.write_ics(t["se_events"], SEICS[k], t["se_calname"], t["se_caldesc"], t["srcw"], t["actw"])
+
+def timeline(base, loc, t):
+    tl = []; last = None
+    for ev, e in zip(base, loc):
+        d = e["date"]
+        if (d.year, d.month) != last:
+            if last: tl.append("</ol></section>")
+            yr = f" {d.year}" if d.year != 2027 else ""
+            tl.append(f'<section class="month"><h3>{t["months"][d.month-1]}{yr}</h3><ol>'); last = (d.year, d.month)
+        s = f' <a href="{html.escape(e["url"])}" rel="noopener">{t["src"]}</a>' if e["url"] else ""
+        a = f'<a class="act" href="{html.escape(e["act"][1])}" rel="noopener">{html.escape(e["act"][0])} →</a>' if e.get("act") else ""
+        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}"><div class="date"><b>{d.day}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><div class="tag">{html.escape(e["cat"])}</div><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
+    tl.append("</ol></section>")
+    return "".join(tl)
 
 CSS = open(os.path.join(os.path.dirname(__file__), "style.css"), encoding="utf-8").read()
 CAT_ALL = {}
@@ -69,23 +102,16 @@ def render(k):
     url = BASE + t["path"]; ourl = BASE + o["path"]
     feed = BASE + ICS[k]; webcal = "webcal://" + feed.split("://")[1]
     gcal = "https://calendar.google.com/calendar/r?cid=" + webcal.replace(":", "%3A").replace("/", "%2F")
-    ru2cls = {e["title"]: CATCLS[ev["cat"]] for ev, e in zip(EVS, t["events"])}
-    tl = []; last = None
-    for ev, e in zip(EVS, t["events"]):
-        d = e["date"]
-        if d.month != last:
-            if last: tl.append("</ol></section>")
-            tl.append(f'<section class="month"><h3>{t["months"][d.month-1]}</h3><ol>'); last = d.month
-        s = f' <a href="{html.escape(e["url"])}" rel="noopener">{t["src"]}</a>' if e["url"] else ""
-        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}"><div class="date"><b>{d.day}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><div class="tag">{html.escape(e["cat"])}</div><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p></div></li>')
-    tl.append("</ol></section>")
-    cards = "".join(f'<div class="card"><b>{a}</b><span>{b}</span></div>' for a, b in t["cards"])
+    tl = timeline(EVS, t["events"], t); se_tl = timeline(SE, t["se_events"], t)
+    se_feed = BASE + SEICS[k]; se_webcal = "webcal://" + se_feed.split("://")[1]
+    se_gcal = "https://calendar.google.com/calendar/r?cid=" + se_webcal.replace(":", "%3A").replace("/", "%2F")
+    cards = "".join(f'<div class="card"><b>{a}</b><span>{b}</span></div>' for a, b in t["cards"] + [t["card_se"]])
     faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in t["faq"])
     links = '<a href="https://www.vid.gov.lv/lv/gada-ienakumu-deklaracija" rel="noopener">VID</a>, <a href="https://pip.riga.lv" rel="noopener">Rīgas pašvaldība</a>, <a href="https://likumi.lv/ta/id/341736" rel="noopener">likumi.lv</a>'
     ld = json.dumps({"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": BASE + "#site", "url": BASE, "name": t["site"], "inLanguage": k},
         {"@type": "WebPage", "@id": url + "#page", "url": url, "name": t["title"], "description": t["desc"], "inLanguage": k, "isPartOf": {"@id": BASE + "#site"}, "dateModified": "2026-11-11"},
-        {"@type": "DataDownload", "name": t["calname"], "encodingFormat": "text/calendar", "contentUrl": feed, "inLanguage": k}]}, ensure_ascii=False)
+        {"@type": "DataDownload", "name": t["calname"], "encodingFormat": "text/calendar", "contentUrl": feed, "inLanguage": k}, {"@type": "DataDownload", "name": t["se_calname"], "encodingFormat": "text/calendar", "contentUrl": se_feed, "inLanguage": k}]}, ensure_ascii=False)
     og = "og.png" if k == "ru" else "og-lv.png"
     p = t["prefix"]
     page = f'''<!doctype html>
@@ -135,7 +161,12 @@ def render(k):
 </div>
 <p class="note">{t["note"]}</p>
 <h2>{t["h_cal"]}</h2>
-{"".join(tl)}
+{tl}
+<h2 id="selfemployed">{t["se_h"]}</h2>
+<p>{t["se_lead"]}</p>
+<div class="cta2"><a class="btn" href="{se_gcal}" rel="noopener">{t["b_g"]}</a><a class="btn" href="{se_webcal}">{t["b_a"]}</a><a class="btn" href="{p}{SEICS[k]}" download>{t["b_d"]}</a></div>
+<p class="note">{t["se_note"]}</p>
+<details class="all"><summary>{t["se_more"].format(n=len(t["se_events"]))}</summary>{se_tl}</details>
 <h2>{t["h_faq"]}</h2>
 {faq}
 </main>

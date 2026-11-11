@@ -1,0 +1,889 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Iedzivotaja termini//LV 2027//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дедлайны самозанятых Латвии 2027
+X-WR-TIMEZONE:Europe/Riga
+X-WR-CALDESC:Квартальные отчёты и VSAOI\, MUN\, PVN. Св
+ ерено 11.11.2026.
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e0b727d28fd8c148@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:MUN: последний срок заявки на переход 
+ на микропредприятие с 2027 года
+DESCRIPTION:Чтобы перейти на налог микропредп
+ риятия (MUN) с другого режима\, заявку нужн
+ о подать в VID до 15 декабря предыдущего го
+ да. По данным сторонних источников\, MUN до
+ ступен при обороте до 50 000 EUR в год. Услови
+ я проверьте у VID.\n\nГде подать или оплатит
+ ь: Подать или оплатить в EDS (VID): https://eds.vid.gov
+ .lv/login/\nИсточник: https://www.vid.gov.lv/lv/media/30731/downlo
+ ad
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: последний срок заявки на перехо
+ д на микропредприятие с 2027 года
+TRIGGER:-P13DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: последний срок заявки на перехо
+ д на микропредприятие с 2027 года
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: последний срок заявки на перехо
+ д на микропредприятие с 2027 года
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0833880676517d1e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Самозанятые: отчёт за IV квартал 2026 (pa
+ šnodarbinātā ziņojums)
+DESCRIPTION:Квартальный отчёт самозанятого в E
+ DS: подать до 17 января. 17 января — воскрес
+ енье. По правилам срок обычно переноситс
+ я на следующий рабочий день\, но надёжнее
+  успеть до пятницы\, 15 января. Взносы VSAOI н
+ ужно заплатить до 23-го числа. Общий режим
+ .\n\nГде подать или оплатить: Подать или оп
+ латить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник
+ : https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за IV квартал 2026 
+ (pašnodarbinātā ziņojums)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за IV квартал 2026 
+ (pašnodarbinātā ziņojums)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43c016abef069564@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:MUN: декларация за IV квартал 2026
+DESCRIPTION:Квартальная декларация плательщи
+ ка налога микропредприятия в EDS: до 15 янв
+ аря. Налог (25%: 20% IIN и 80% VSAOI) платится до 23-г
+ о числа.\n\nГде подать или оплатить: Подат
+ ь или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИ
+ сточник: https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за IV квартал 2026
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за IV квартал 2026
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8d6c8671c87b1d8@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:PVN: декларация за декабрь 2026 (оплата д
+ о 23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 января). Налог платится до 23-го 
+ числа следующего месяца. Относится к зар
+ егистрированным плательщикам PVN. Если у 
+ вас квартальный период\, подавайте тольк
+ о в январе\, апреле\, июле и октябре.\n\nГде 
+ подать или оплатить: Подать или оплатить
+  в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://ww
+ w.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за декабрь 2026 (оплат
+ а до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd5d07f3620ce77@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:MUN: оплата налога за IV квартал 2026
+DESCRIPTION:Налог микропредприятия платится н
+ а единый налоговый счёт до 23 января. 23 ян
+ варя — суббота. По правилам срок обычно 
+ переносится на следующий рабочий день\, 
+ но надёжнее успеть до пятницы\, 22 января.\
+ n\nГде подать или оплатить: Подать или опл
+ атить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: 
+ https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за IV квартал 2026
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за IV квартал 2026
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e01b2c2589cceb9f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Самозанятые: оплата VSAOI за IV квартал 2
+ 026
+DESCRIPTION:Взносы VSAOI самозанятого платятся н
+ а единый налоговый счёт до 23 января. 23 ян
+ варя — суббота\; VID указывает срок оплаты
+  25 января. Ставка 31\,07% от месячной базы\, н
+ е менее 780 EUR при доходе от 780 EUR в месяц (па
+ раметры 2026 года\, на 2027 год уточняйте). Об
+ язательных минимальных взносов с 2026 год
+ а нет.\n\nГде подать или оплатить: Подать и
+ ли оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИст
+ очник: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за IV кварта
+ л 2026
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за IV кварта
+ л 2026
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c13c2e04367f8a47@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:PVN: декларация за январь 2027 (оплата до
+  23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 февраля). 20 февраля — суббота. 
+ По правилам срок обычно переносится на с
+ ледующий рабочий день\, но надёжнее успе
+ ть до пятницы\, 19 февраля. Налог платится 
+ до 23-го числа следующего месяца. Относит
+ ся к зарегистрированным плательщикам PVN.
+  Если у вас квартальный период\, подавайт
+ е только в январе\, апреле\, июле и октябр
+ е.\n\nГде подать или оплатить: Подать или о
+ платить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточни
+ к: https://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за январь 2027 (оплата 
+ до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:38b941dc37875fcf@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:PVN: декларация за февраль 2027 (оплата д
+ о 23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 марта). 20 марта — суббота. По пр
+ авилам срок обычно переносится на следу
+ ющий рабочий день\, но надёжнее успеть до
+  пятницы\, 19 марта. Налог платится до 23-го 
+ числа следующего месяца. Относится к зар
+ егистрированным плательщикам PVN. Если у 
+ вас квартальный период\, подавайте тольк
+ о в январе\, апреле\, июле и октябре.\n\nГде 
+ подать или оплатить: Подать или оплатить
+  в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://ww
+ w.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за февраль 2027 (оплат
+ а до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3e39babb39ba299@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:MUN: декларация за I квартал 2027
+DESCRIPTION:Квартальная декларация плательщи
+ ка налога микропредприятия в EDS: до 15 апр
+ еля. Налог (25%: 20% IIN и 80% VSAOI) платится до 23-г
+ о числа.\n\nГде подать или оплатить: Подат
+ ь или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИ
+ сточник: https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за I квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за I квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5e7344efdc015fb@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Самозанятые: отчёт за I квартал 2027 (paš
+ nodarbinātā ziņojums)
+DESCRIPTION:Квартальный отчёт самозанятого в E
+ DS: подать до 17 апреля. 17 апреля — суббота.
+  По правилам срок обычно переносится на 
+ следующий рабочий день\, но надёжнее усп
+ еть до пятницы\, 16 апреля. Взносы VSAOI нужн
+ о заплатить до 23-го числа. Общий режим.\n\n
+ Где подать или оплатить: Подать или опла
+ тить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: ht
+ tps://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за I квартал 2027 (
+ pašnodarbinātā ziņojums)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за I квартал 2027 (
+ pašnodarbinātā ziņojums)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b21c2faf25efee54@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:PVN: декларация за март 2027 (оплата до 23-
+ го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 апреля). Налог платится до 23-го 
+ числа следующего месяца. Относится к зар
+ егистрированным плательщикам PVN. Если у 
+ вас квартальный период\, подавайте тольк
+ о в январе\, апреле\, июле и октябре.\n\nГде 
+ подать или оплатить: Подать или оплатить
+  в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://ww
+ w.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за март 2027 (оплата до
+  23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5a01bc5582c3e6e9@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Самозанятые: оплата VSAOI за I квартал 20
+ 27
+DESCRIPTION:Взносы VSAOI самозанятого платятся н
+ а единый налоговый счёт до 23 апреля. Став
+ ка 31\,07% от месячной базы\, не менее 780 EUR пр
+ и доходе от 780 EUR в месяц (параметры 2026 год
+ а\, на 2027 год уточняйте). Обязательных мин
+ имальных взносов с 2026 года нет.\n\nГде под
+ ать или оплатить: Подать или оплатить в ED
+ S (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.
+ gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за I кварта
+ л 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за I кварта
+ л 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c8268f5947a749e1@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:MUN: оплата налога за I квартал 2027
+DESCRIPTION:Налог микропредприятия платится н
+ а единый налоговый счёт до 23 апреля.\n\nГд
+ е подать или оплатить: Подать или оплати
+ ть в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https:
+ //www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за I квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за I квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a746e96009916304@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:PVN: декларация за апрель 2027 (оплата до
+  23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 мая). Налог платится до 23-го чис
+ ла следующего месяца. Относится к зареги
+ стрированным плательщикам PVN. Если у вас 
+ квартальный период\, подавайте только в 
+ январе\, апреле\, июле и октябре.\n\nГде под
+ ать или оплатить: Подать или оплатить в ED
+ S (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.
+ gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за апрель 2027 (оплата 
+ до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d90662a2e00ebb51@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:PVN: декларация за май 2027 (оплата до 23-г
+ о)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 июня). 20 июня — воскресенье. По 
+ правилам срок обычно переносится на сле
+ дующий рабочий день\, но надёжнее успеть 
+ до пятницы\, 18 июня. Налог платится до 23-г
+ о числа следующего месяца. Относится к з
+ арегистрированным плательщикам PVN. Если 
+ у вас квартальный период\, подавайте тол
+ ько в январе\, апреле\, июле и октябре.\n\nГ
+ де подать или оплатить: Подать или оплат
+ ить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: http
+ s://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за май 2027 (оплата до 2
+ 3-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e217df9a4285aa56@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:MUN: декларация за II квартал 2027
+DESCRIPTION:Квартальная декларация плательщи
+ ка налога микропредприятия в EDS: до 15 июл
+ я. Налог (25%: 20% IIN и 80% VSAOI) платится до 23-го 
+ числа.\n\nГде подать или оплатить: Подать 
+ или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИс
+ точник: https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за II квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за II квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00a859d9c5ff209a@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:Самозанятые: отчёт за II квартал 2027 (pa
+ šnodarbinātā ziņojums)
+DESCRIPTION:Квартальный отчёт самозанятого в E
+ DS: подать до 17 июля. 17 июля — суббота. По п
+ равилам срок обычно переносится на след
+ ующий рабочий день\, но надёжнее успеть д
+ о пятницы\, 16 июля. Взносы VSAOI нужно запла
+ тить до 23-го числа. Общий режим.\n\nГде под
+ ать или оплатить: Подать или оплатить в ED
+ S (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.
+ gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за II квартал 2027 
+ (pašnodarbinātā ziņojums)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за II квартал 2027 
+ (pašnodarbinātā ziņojums)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5389afc345abf131@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:PVN: декларация за июнь 2027 (оплата до 23-
+ го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 июля). Налог платится до 23-го чи
+ сла следующего месяца. Относится к зарег
+ истрированным плательщикам PVN. Если у ва
+ с квартальный период\, подавайте только 
+ в январе\, апреле\, июле и октябре.\n\nГде п
+ одать или оплатить: Подать или оплатить 
+ в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www
+ .vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за июнь 2027 (оплата до
+  23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:63f961b2cc088a6b@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Самозанятые: оплата VSAOI за II квартал 2
+ 027
+DESCRIPTION:Взносы VSAOI самозанятого платятся н
+ а единый налоговый счёт до 23 июля. Ставка
+  31\,07% от месячной базы\, не менее 780 EUR при 
+ доходе от 780 EUR в месяц (параметры 2026 года\
+ , на 2027 год уточняйте). Обязательных мини
+ мальных взносов с 2026 года нет.\n\nГде пода
+ ть или оплатить: Подать или оплатить в EDS 
+ (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www.vid.go
+ v.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за II кварта
+ л 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за II кварта
+ л 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a2980c91f00dbb7@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:MUN: оплата налога за II квартал 2027
+DESCRIPTION:Налог микропредприятия платится н
+ а единый налоговый счёт до 23 июля.\n\nГде п
+ одать или оплатить: Подать или оплатить 
+ в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://www
+ .vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за II квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за II квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5a3dc5ca7b91c093@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Самозанятые: минимальный налог 50 EUR (
+ если применимо)
+DESCRIPTION:Если IIN\, рассчитанный с дохода от х
+ озяйственной деятельности\, не превышае
+ т 50 EUR\, до 23 июля нужно заплатить минимал
+ ьный налог 50 EUR. Платить не нужно\, наприм
+ ер\, если вы платили VSAOI за себя как самоз
+ анятый. Полный список исключений смотри
+ те в материале VID.\n\nГде подать или оплати
+ ть: Подать или оплатить в EDS (VID): https://eds.vid.g
+ ov.lv/login/\nИсточник: https://www.vid.gov.lv/lv/media/1907/downl
+ oad
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: минимальный налог 50 EU
+ R (если применимо)
+TRIGGER:-P6DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: минимальный налог 50 EU
+ R (если применимо)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d5115e018dc04e4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:PVN: декларация за июль 2027 (оплата до 23-
+ го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 августа). Налог платится до 23-г
+ о числа следующего месяца. Относится к з
+ арегистрированным плательщикам PVN. Если 
+ у вас квартальный период\, подавайте тол
+ ько в январе\, апреле\, июле и октябре.\n\nГ
+ де подать или оплатить: Подать или оплат
+ ить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: http
+ s://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за июль 2027 (оплата до
+  23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02d66e8f6e97b414@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270921
+SUMMARY:PVN: декларация за август 2027 (оплата до
+  23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 сентября). Налог платится до 23-
+ го числа следующего месяца. Относится к 
+ зарегистрированным плательщикам PVN. Есл
+ и у вас квартальный период\, подавайте то
+ лько в январе\, апреле\, июле и октябре.\n\n
+ Где подать или оплатить: Подать или опла
+ тить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: ht
+ tps://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за август 2027 (оплата 
+ до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f71a7258f009ee3@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Самозанятые: отчёт за III квартал 2027 (pa
+ šnodarbinātā ziņojums)
+DESCRIPTION:Квартальный отчёт самозанятого в E
+ DS: подать до 17 октября. 17 октября — воскр
+ есенье. По правилам срок обычно переноси
+ тся на следующий рабочий день\, но надёжн
+ ее успеть до пятницы\, 15 октября. Взносы VS
+ AOI нужно заплатить до 23-го числа. Общий ре
+ жим.\n\nГде подать или оплатить: Подать ил
+ и оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИсто
+ чник: https://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за III квартал 2027
+  (pašnodarbinātā ziņojums)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: отчёт за III квартал 2027
+  (pašnodarbinātā ziņojums)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3fa082bfa33b06f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:MUN: декларация за III квартал 2027
+DESCRIPTION:Квартальная декларация плательщи
+ ка налога микропредприятия в EDS: до 15 окт
+ ября. Налог (25%: 20% IIN и 80% VSAOI) платится до 23-
+ го числа.\n\nГде подать или оплатить: Пода
+ ть или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\n
+ Источник: https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за III квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: декларация за III квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2f52bda22636910f@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:PVN: декларация за сентябрь 2027 (оплата 
+ до 23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 октября). Налог платится до 23-г
+ о числа следующего месяца. Относится к з
+ арегистрированным плательщикам PVN. Если 
+ у вас квартальный период\, подавайте тол
+ ько в январе\, апреле\, июле и октябре.\n\nГ
+ де подать или оплатить: Подать или оплат
+ ить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: http
+ s://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за сентябрь 2027 (опла
+ та до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b1523b2c3c3e132@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:Самозанятые: оплата VSAOI за III квартал 
+ 2027
+DESCRIPTION:Взносы VSAOI самозанятого платятся н
+ а единый налоговый счёт до 23 октября. 23 о
+ ктября — суббота. По правилам срок обычн
+ о переносится на следующий рабочий день\
+ , но надёжнее успеть до пятницы\, 22 октябр
+ я. Ставка 31\,07% от месячной базы\, не менее 
+ 780 EUR при доходе от 780 EUR в месяц (параметры
+  2026 года\, на 2027 год уточняйте). Обязатель
+ ных минимальных взносов с 2026 года нет.\n\n
+ Где подать или оплатить: Подать или опла
+ тить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: ht
+ tps://www.vid.gov.lv/lv/media/29738/download
+CATEGORIES:Самозанятые · общий режим
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за III кварт
+ ал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Самозанятые: оплата VSAOI за III кварт
+ ал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6a2b1ae6af277495@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:MUN: оплата налога за III квартал 2027
+DESCRIPTION:Налог микропредприятия платится н
+ а единый налоговый счёт до 23 октября. 23 о
+ ктября — суббота. По правилам срок обычн
+ о переносится на следующий рабочий день\
+ , но надёжнее успеть до пятницы\, 22 октябр
+ я.\n\nГде подать или оплатить: Подать или о
+ платить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточни
+ к: https://www.vid.gov.lv/lv/media/30731/download
+CATEGORIES:Самозанятые · MUN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за III квартал 2027
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUN: оплата налога за III квартал 2027
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c17dbbc994ad6d1e@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+SUMMARY:PVN: декларация за октябрь 2027 (оплата д
+ о 23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 ноября). 20 ноября — суббота. По 
+ правилам срок обычно переносится на сле
+ дующий рабочий день\, но надёжнее успеть 
+ до пятницы\, 19 ноября. Налог платится до 23
+ -го числа следующего месяца. Относится к 
+ зарегистрированным плательщикам PVN. Есл
+ и у вас квартальный период\, подавайте то
+ лько в январе\, апреле\, июле и октябре.\n\n
+ Где подать или оплатить: Подать или опла
+ тить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: ht
+ tps://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за октябрь 2027 (оплат
+ а до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3d07bc20c2a43bec@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20271220
+DTEND;VALUE=DATE:20271221
+SUMMARY:PVN: декларация за ноябрь 2027 (оплата до
+  23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 декабря). Налог платится до 23-г
+ о числа следующего месяца. Относится к з
+ арегистрированным плательщикам PVN. Если 
+ у вас квартальный период\, подавайте тол
+ ько в январе\, апреле\, июле и октябре.\n\nГ
+ де подать или оплатить: Подать или оплат
+ ить в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: http
+ s://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за ноябрь 2027 (оплата 
+ до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
