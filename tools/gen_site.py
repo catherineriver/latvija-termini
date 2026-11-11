@@ -24,14 +24,14 @@ T = {
  site="Календарь жителя Латвии",
  title="Календарь жителя Латвии 2027: декларация, налог на недвижимость, школы и садики",
  desc="Бесплатный календарь-подписка (.ics) со сроками 2027 года: декларация о доходах (GID), налог на недвижимость (NĪN), приём в 1-й класс и садики в Риге, переносы рабочих дней. Есть отдельный календарь для самозанятых. Для Google, Apple и Outlook.",
- eyebrow="Latvija · 2027 · бесплатно", h1="Все сроки жителя Латвии в вашем календаре",
+ eyebrow="Latvija · 2026–2027 · бесплатно", h1="Все сроки жителя Латвии в вашем календаре",
  lead="Декларация о доходах, налог на недвижимость, приём в школу и садик, рабочие дни. Подпишитесь один раз: сроки и напоминания появятся в Google, Apple или Outlook календаре.",
  b_g="Добавить в Google Календарь", b_a="Apple / Outlook", b_d="Скачать .ics",
  meta="{n} событий · сверено с официальными источниками 11 ноября 2026",
  h_in="Что внутри", cards=[("Декларация (GID)","Открытие приёма, дедлайн 1 июня и 1 июля, три срока доплаты IIN."),("Налог на недвижимость","Уведомление до 15 февраля и четыре платежа с учётом выходных."),("Школы и садики (Рига)","Регистрация в 1-й класс, комплектование, сроки ответа на приглашение."),("Рабочие дни","В 2027 году переносов нет, но спорные дни отмечены.")],
  h_sub="Как подписаться", s_g=("Google Календарь","Откроется окно «Добавить календарь»."), s_a=("Apple, Outlook","Ссылка webcal откроет приложение календаря."), s_o=("Любое другое приложение","Вставьте адрес в «Подписка по URL»:"), s_btn="Подписаться",
  note="<b>Про напоминания.</b> Apple Календарь показывает напоминания из подписки (за 30, 14, 7, 3 и 1 день до важных сроков). Google Календарь их из подписки не берёт: включите уведомления в настройках этого календаря или импортируйте файл .ics.",
- h_cal="Календарь 2027 по месяцам", h_faq="Частые вопросы",
+ h_cal="Календарь по месяцам", h_faq="Частые вопросы",
  faq=[("Это официальный календарь?","Нет. Это неофициальная сводка по открытым источникам: VID, Министерство финансов, Рижская дума, likumi.lv. Перед важными действиями проверяйте срок у источника, ссылки есть в каждом событии. Это не налоговая и не юридическая консультация."),
  ("Почему школы и садики только по Риге?","Сроки приёма устанавливает каждое самоуправление. Рижские правила я проверил, остальные города можно добавить по запросу."),
  ("Даты на школы и садики точные?","Для 1-го класса даты взяты из действующих рижских правил (регистрация до 15 мая, комплектование до 1 июня). Для садиков указана практика прошлых лет, график на 2027 год ещё не опубликован. Календарь стоит обновить весной."),
@@ -47,14 +47,14 @@ T = {
  site="Latvijas iedzīvotāja kalendārs",
  title="Latvijas iedzīvotāja kalendārs 2027: deklarācija, nekustamā īpašuma nodoklis, skolas un bērnudārzi",
  desc="Bezmaksas kalendāra abonements (.ics) ar 2027. gada termiņiem: gada ienākumu deklarācija (GID), nekustamā īpašuma nodoklis (NĪN), pieteikšanās 1. klasē un bērnudārzos Rīgā, pārceltās darba dienas. Ir atsevišķs kalendārs pašnodarbinātajiem. Google, Apple un Outlook kalendāram.",
- eyebrow="Latvija · 2027 · bez maksas", h1="Visi Latvijas iedzīvotāja termiņi jūsu kalendārā",
+ eyebrow="Latvija · 2026–2027 · bez maksas", h1="Visi Latvijas iedzīvotāja termiņi jūsu kalendārā",
  lead="Ienākumu deklarācija, nekustamā īpašuma nodoklis, pieteikšanās skolā un bērnudārzā, darba dienas. Abonējiet vienreiz: termiņi un atgādinājumi parādīsies Google, Apple vai Outlook kalendārā.",
  b_g="Pievienot Google kalendāram", b_a="Apple / Outlook", b_d="Lejupielādēt .ics",
  meta="{n} notikumi · pārbaudīts pēc oficiālajiem avotiem 2026. gada 11. novembrī",
  h_in="Kas iekšā", cards=[("Deklarācija (GID)","Pieņemšanas sākums, termiņi 1. jūnijā un 1. jūlijā, trīs IIN piemaksas termiņi."),("Nekustamā īpašuma nodoklis","Paziņojums līdz 15. februārim un četri maksājumi, ņemot vērā brīvdienas."),("Skolas un bērnudārzi (Rīga)","Pieteikšana 1. klasē, komplektēšana, atbildes termiņi uz uzaicinājumu."),("Darba dienas","2027. gadā pārcelšanas nav, bet strīdīgās dienas ir atzīmētas.")],
  h_sub="Kā abonēt", s_g=("Google kalendārs","Atvērsies logs “Pievienot kalendāru”."), s_a=("Apple, Outlook","Webcal saite atvērs kalendāra lietotni."), s_o=("Jebkura cita lietotne","Ielīmējiet adresi sadaļā “Abonēt pēc URL”:"), s_btn="Abonēt",
  note="<b>Par atgādinājumiem.</b> Apple kalendārs rāda atgādinājumus no abonementa (30, 14, 7, 3 un 1 dienu pirms svarīgiem termiņiem). Google kalendārs tos no abonementa neņem: ieslēdziet paziņojumus šī kalendāra iestatījumos vai importējiet .ics failu.",
- h_cal="Kalendārs 2027 pa mēnešiem", h_faq="Biežāk uzdotie jautājumi",
+ h_cal="Kalendārs pa mēnešiem", h_faq="Biežāk uzdotie jautājumi",
  faq=[("Vai šis ir oficiāls kalendārs?","Nē. Tas ir neoficiāls apkopojums no atvērtiem avotiem: VID, Finanšu ministrija, Rīgas dome, likumi.lv. Pirms svarīgām darbībām pārbaudiet termiņu avotā, saites ir katrā notikumā. Šī nav nodokļu vai juridiska konsultācija."),
  ("Kāpēc skolas un bērnudārzi tikai Rīgā?","Uzņemšanas termiņus nosaka katra pašvaldība. Rīgas noteikumus esmu pārbaudījis, citas pilsētas var pievienot pēc pieprasījuma."),
  ("Vai skolu un bērnudārzu datumi ir precīzi?","1. klasei datumi ņemti no spēkā esošajiem Rīgas noteikumiem (reģistrācija līdz 15. maijam, komplektēšana līdz 1. jūnijam). Bērnudārziem norādīta iepriekšējo gadu prakse, 2027. gada grafiks vēl nav publicēts. Pavasarī kalendārs jāatjaunina."),
@@ -70,12 +70,14 @@ SEXT = {
  se_lead="Отдельная подписка с квартальными отчётами и взносами VSAOI, сроками MUN и декларациями PVN. Подпишитесь на неё в дополнение к основному календарю: годовая декларация (GID) и налог IIN уже есть в нём.",
  se_note="Параметры (VSAOI 31,07% от базы не менее 780 EUR, IIN 25,5% и 33%) взяты из материалов VID за 2026 год, на 2027 год они могут измениться. С 2026 года обязательных минимальных взносов нет, а заранее сообщать VID ожидаемый доход больше не нужно. Если срок выпадает на выходной или праздник, событие стоит на последнем рабочем дне до него: по правилам срок обычно переносится вперёд, но надёжнее успеть заранее.",
  se_more="Показать все сроки ({n})", se_calname="Дедлайны самозанятых Латвии 2026–2027", se_caldesc="Квартальные отчёты и VSAOI, MUN, PVN. Сверено 11.11.2026.",
- card_se=("Самозанятые","Отдельный календарь: отчёты и взносы, MUN, PVN, ссылки на EDS."), actw="Где подать или оплатить"),
+ card_se=("Самозанятые","Отдельный календарь: отчёты и взносы, MUN, PVN, ссылки на EDS."), actw="Где подать или оплатить",
+ b_se="Для самозанятых ↓", f_all="Все", past_show="Показать прошедшие", past_hide="Скрыть прошедшие", copy="Копировать", copied="Скопировано", next_l="Ближайший срок", next_in="через {n} дн.", next_today="сегодня", next_tom="завтра", go="К событию ↓"),
 "lv": dict(se_h="Kalendārs pašnodarbinātajiem",
  se_lead="Atsevišķs abonements ar ceturkšņa ziņojumiem un VSAOI, MUN termiņiem un PVN deklarācijām. Abonējiet to papildus galvenajam kalendāram: gada deklarācija (GID) un IIN tajā jau ir.",
  se_note="Parametri (VSAOI 31,07% no bāzes ne mazāk kā 780 EUR, IIN 25,5% un 33%) ņemti no VID 2026. gada materiāliem, 2027. gadā tie var mainīties. Kopš 2026. gada obligāto minimālo iemaksu nav, un gaidāmos ienākumus iepriekš VID vairs nav jāpaziņo. Ja termiņš iekrīt brīvdienā vai svētku dienā, notikums ir pēdējā darba dienā pirms tās: parasti termiņš pārceļas uz priekšu, taču drošāk paspēt iepriekš.",
  se_more="Rādīt visus termiņus ({n})", se_calname="Latvijas pašnodarbināto termiņi 2026–2027", se_caldesc="Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Pārbaudīts 11.11.2026.",
- card_se=("Pašnodarbinātie","Atsevišķs kalendārs: ziņojumi un iemaksas, MUN, PVN, saites uz EDS."), actw="Kur iesniegt vai samaksāt")}
+ card_se=("Pašnodarbinātie","Atsevišķs kalendārs: ziņojumi un iemaksas, MUN, PVN, saites uz EDS."), actw="Kur iesniegt vai samaksāt",
+ b_se="Pašnodarbinātajiem ↓", f_all="Visi", past_show="Rādīt pagājušos", past_hide="Slēpt pagājušos", copy="Kopēt", copied="Nokopēts", next_l="Tuvākais termiņš", next_in="pēc {n} d.", next_today="šodien", next_tom="rīt", go="Uz notikumu ↓")}
 for k, t in T.items():
     t.update(SEXT[k]); t["se_events"] = SERU if k == "ru" else SELV
     ics.write_ics(t["events"], ICS[k], t["calname"], t["caldesc"], t["srcw"], t["actw"])
@@ -91,10 +93,11 @@ def timeline(base, loc, t):
             tl.append(f'<section class="month"><h3>{t["months"][d.month-1]}{yr}</h3><ol>'); last = (d.year, d.month)
         s = f' <a href="{html.escape(e["url"])}" rel="noopener">{t["src"]}</a>' if e["url"] else ""
         a = f'<a class="act" href="{html.escape(e["act"][1])}" rel="noopener">{html.escape(e["act"][0])} →</a>' if e.get("act") else ""
-        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}"><div class="date"><b>{d.day}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><div class="tag">{html.escape(e["cat"])}</div><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
+        tl.append(f'<li class="ev {CATCLS[ev["cat"]]}" data-date="{d.isoformat()}"><div class="date"><b>{d.day}</b><span>{t["wd"][d.weekday()]}</span></div><div class="body"><div class="tag">{html.escape(e["cat"])}</div><h4>{html.escape(e["title"])}</h4><p>{html.escape(e["desc"])}{s}</p>{a}</div></li>')
     tl.append("</ol></section>")
     return "".join(tl)
 
+JS = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "app.js"), encoding="utf-8").read()
 CSS = open(os.path.join(os.path.dirname(__file__), "style.css"), encoding="utf-8").read()
 CAT_ALL = {}
 def render(k):
@@ -102,6 +105,9 @@ def render(k):
     url = BASE + t["path"]; ourl = BASE + o["path"]
     feed = BASE + ICS[k]; webcal = "webcal://" + feed.split("://")[1]
     gcal = "https://calendar.google.com/calendar/r?cid=" + webcal.replace(":", "%3A").replace("/", "%2F")
+    seen = {}
+    for ev, e in zip(EVS, t["events"]): seen.setdefault(CATCLS[ev["cat"]], e["cat"])
+    chips = "".join(f'<button type="button" data-f="{c}" aria-pressed="false">{html.escape(n)}</button>' for c, n in seen.items())
     tl = timeline(EVS, t["events"], t); se_tl = timeline(SE, t["se_events"], t)
     se_feed = BASE + SEICS[k]; se_webcal = "webcal://" + se_feed.split("://")[1]
     se_gcal = "https://calendar.google.com/calendar/r?cid=" + se_webcal.replace(":", "%3A").replace("/", "%2F")
@@ -147,7 +153,7 @@ def render(k):
 <div class="eyebrow">{t["eyebrow"]}</div>
 <h1>{t["h1"]}</h1>
 <p class="lead">{t["lead"]}</p>
-<div class="cta"><a class="btn p" href="{gcal}" rel="noopener">{t["b_g"]}</a><a class="btn s" href="{webcal}">{t["b_a"]}</a><a class="btn s" href="{p}{ICS[k]}" download>{t["b_d"]}</a></div>
+<div class="cta"><a class="btn p" href="{gcal}" rel="noopener">{t["b_g"]}</a><a class="btn s" href="{webcal}">{t["b_a"]}</a><a class="btn s" href="{p}{ICS[k]}" download>{t["b_d"]}</a><a class="btn s" href="#selfemployed">{t["b_se"]}</a></div>
 <div class="meta">{t["meta"].format(n=len(t["events"]))}</div>
 </div></header>
 <main class="wrap">
@@ -157,11 +163,13 @@ def render(k):
 <div class="sub">
 <div class="card"><b>{t["s_g"][0]}</b><span>{t["s_g"][1]}</span><br><a class="btn" href="{gcal}" rel="noopener">{t["s_btn"]}</a></div>
 <div class="card"><b>{t["s_a"][0]}</b><span>{t["s_a"][1]}</span><br><a class="btn" href="{webcal}">{t["s_btn"]}</a></div>
-<div class="card"><b>{t["s_o"][0]}</b><span>{t["s_o"][1]}</span><br><code>{feed}</code></div>
+<div class="card"><b>{t["s_o"][0]}</b><span>{t["s_o"][1]}</span><br><code>{feed}</code><button class="copy" type="button" data-url="{feed}" data-ok="{t["copied"]}">{t["copy"]}</button></div>
 </div>
 <p class="note">{t["note"]}</p>
 <h2>{t["h_cal"]}</h2>
-{tl}
+<div id="next" class="nextb" hidden data-in="{t["next_in"]}" data-today="{t["next_today"]}" data-tom="{t["next_tom"]}"><span class="nl">{t["next_l"]}</span> <b class="nd"></b> <span class="nt"></span> <a href="#next-ev">{t["go"]}</a></div>
+<div id="tools" class="chips" hidden><button type="button" data-f="all" aria-pressed="true">{t["f_all"]}</button>{chips}<button type="button" id="pastbtn" class="pb" data-show="{t["past_show"]}" data-hide="{t["past_hide"]}">{t["past_show"]}</button></div>
+<div id="tl">{tl}</div>
 <h2 id="selfemployed">{t["se_h"]}</h2>
 <p>{t["se_lead"]}</p>
 <div class="cta2"><a class="btn" href="{se_gcal}" rel="noopener">{t["b_g"]}</a><a class="btn" href="{se_webcal}">{t["b_a"]}</a><a class="btn" href="{p}{SEICS[k]}" download>{t["b_d"]}</a></div>
@@ -171,6 +179,7 @@ def render(k):
 {faq}
 </main>
 <footer><div class="wrap">{t["foot"].format(l=links)}</div></footer>
+<script>{JS}</script>
 </body></html>
 '''
     open(("index.html" if k == "ru" else "lv/index.html"), "w", encoding="utf-8").write(page)
