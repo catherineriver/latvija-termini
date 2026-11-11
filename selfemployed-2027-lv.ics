@@ -3,12 +3,36 @@ VERSION:2.0
 PRODID:-//Iedzivotaja termini//LV 2027//LV
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Latvijas pašnodarbināto termiņi 2027
+X-WR-CALNAME:Latvijas pašnodarbināto termiņi 2026–2027
 X-WR-TIMEZONE:Europe/Riga
 X-WR-CALDESC:Ceturkšņa ziņojumi un VSAOI\, MUN\, PVN. Pārbaudīts 11.11
  .2026.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:b22112e6c4179624@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:PVN: deklarācija par 2026. gada oktobri (samaksa līdz 23. datumam
+ )
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. novembrim). Nodoklis jāsamaksā līdz nāka
+ mā mēneša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja
+  jums ceturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūli
+ jā un oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS
+  (VID): https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/me
+ dia/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2026. gada oktobri (samaksa līdz 23. dat
+ umam)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
 BEGIN:VEVENT
 UID:e0b727d28fd8c148@iedzivotaja-termini.lv
 DTSTAMP:20261111T190000Z
@@ -42,6 +66,32 @@ ACTION:DISPLAY
 DESCRIPTION:MUN: pēdējais termiņš pieteikumam pāriet uz mikrouzņēmum
  a nodokli no 2027. gada
 TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:13fa0d91b847b226@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:PVN: deklarācija par 2026. gada novembri (samaksa līdz 23. datuma
+ m)
+DESCRIPTION:PVN deklarācija EDS jāiesniedz 20 dienu laikā pēc taksācij
+ as perioda beigām (līdz 20. decembrim). 20. decembris ir svētdiena. Par
+ asti termiņš pārceļas uz nākamo darba dienu\, taču drošāk paspēt 
+ līdz piektdienai\, 18. decembrim. Nodoklis jāsamaksā līdz nākamā mē
+ neša 23. datumam. Attiecas uz reģistrētiem PVN maksātājiem. Ja jums c
+ eturkšņa periods\, iesniedziet tikai janvārī\, aprīlī\, jūlijā un 
+ oktobrī.\n\nKur iesniegt vai samaksāt: Iesniegt vai samaksāt EDS (VID):
+  https://eds.vid.gov.lv/login/\nAvots: https://www.vid.gov.lv/lv/media/229
+ 9/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: deklarācija par 2026. gada novembri (samaksa līdz 23. da
+ tumam)
+TRIGGER:-P1DT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

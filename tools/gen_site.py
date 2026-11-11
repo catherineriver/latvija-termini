@@ -38,7 +38,7 @@ T = {
  ("Почему нет техосмотра?","Срок техосмотра зависит от вашей машины, а общей даты для всех нет. Проверить свой можно на e.csdd.lv."),
  ("Календарь обновится сам?","Да, если вы подписались по ссылке: приложение периодически перезагружает файл. Если сроки изменятся, файл будет обновлён.")],
  foot='Неофициальный проект. Данные: {l}. Обновлено 11.11.2026. <a href="https://github.com/catherineriver/latvija-termini" rel="noopener">Код на GitHub</a>.',
- calname="Дедлайны жителя Латвии 2027", caldesc="Декларация, налог на недвижимость, рабочие дни, школы и садики (Рига). Сверено 11.11.2026.",
+ calname="Дедлайны жителя Латвии 2026–2027", caldesc="Декларация, налог на недвижимость, рабочие дни, школы и садики (Рига). Сверено 11.11.2026.",
  og=("LATVIJA · 2027 · БЕСПЛАТНО",["Все сроки жителя","Латвии в вашем","календаре"],"Декларация · Налог на недвижимость · Школы и садики","Подписка .ics для календаря"),
  events=RUEV),
 "lv": dict(lang="lv", locale="lv_LV", path="lv/", prefix="../", other="ru", other_label="По-русски",
@@ -61,7 +61,7 @@ T = {
  ("Kāpēc nav tehniskās apskates?","Tehniskās apskates termiņš ir atkarīgs no jūsu automašīnas, tāpēc kopīga datuma nav. Savu termiņu var pārbaudīt e.csdd.lv."),
  ("Vai kalendārs atjaunosies pats?","Jā, ja abonējāt pēc saites: lietotne periodiski pārlādē failu. Ja termiņi mainīsies, fails tiks atjaunināts.")],
  foot='Neoficiāls projekts. Dati: {l}. Atjaunināts 11.11.2026. <a href="https://github.com/catherineriver/latvija-termini" rel="noopener">Kods GitHub</a>.',
- calname="Latvijas iedzīvotāja termiņi 2027", caldesc="Deklarācija, nekustamā īpašuma nodoklis, darba dienas, skolas un bērnudārzi (Rīga). Pārbaudīts 11.11.2026.",
+ calname="Latvijas iedzīvotāja termiņi 2026–2027", caldesc="Deklarācija, nekustamā īpašuma nodoklis, darba dienas, skolas un bērnudārzi (Rīga). Pārbaudīts 11.11.2026.",
  og=("LATVIJA · 2027 · BEZ MAKSAS",["Visi Latvijas","iedzīvotāja termiņi","jūsu kalendārā"],"Deklarācija · NĪN · Skolas un bērnudārzi","Kalendāra abonements .ics"),
  events=LVEV),
 }
@@ -69,12 +69,12 @@ SEXT = {
 "ru": dict(se_h="Календарь для самозанятых",
  se_lead="Отдельная подписка с квартальными отчётами и взносами VSAOI, сроками MUN и декларациями PVN. Подпишитесь на неё в дополнение к основному календарю: годовая декларация (GID) и налог IIN уже есть в нём.",
  se_note="Параметры (VSAOI 31,07% от базы не менее 780 EUR, IIN 25,5% и 33%) взяты из материалов VID за 2026 год, на 2027 год они могут измениться. С 2026 года обязательных минимальных взносов нет, а заранее сообщать VID ожидаемый доход больше не нужно. Если срок выпадает на выходной или праздник, событие стоит на последнем рабочем дне до него: по правилам срок обычно переносится вперёд, но надёжнее успеть заранее.",
- se_more="Показать все сроки ({n})", se_calname="Дедлайны самозанятых Латвии 2027", se_caldesc="Квартальные отчёты и VSAOI, MUN, PVN. Сверено 11.11.2026.",
+ se_more="Показать все сроки ({n})", se_calname="Дедлайны самозанятых Латвии 2026–2027", se_caldesc="Квартальные отчёты и VSAOI, MUN, PVN. Сверено 11.11.2026.",
  card_se=("Самозанятые","Отдельный календарь: отчёты и взносы, MUN, PVN, ссылки на EDS."), actw="Где подать или оплатить"),
 "lv": dict(se_h="Kalendārs pašnodarbinātajiem",
  se_lead="Atsevišķs abonements ar ceturkšņa ziņojumiem un VSAOI, MUN termiņiem un PVN deklarācijām. Abonējiet to papildus galvenajam kalendāram: gada deklarācija (GID) un IIN tajā jau ir.",
  se_note="Parametri (VSAOI 31,07% no bāzes ne mazāk kā 780 EUR, IIN 25,5% un 33%) ņemti no VID 2026. gada materiāliem, 2027. gadā tie var mainīties. Kopš 2026. gada obligāto minimālo iemaksu nav, un gaidāmos ienākumus iepriekš VID vairs nav jāpaziņo. Ja termiņš iekrīt brīvdienā vai svētku dienā, notikums ir pēdējā darba dienā pirms tās: parasti termiņš pārceļas uz priekšu, taču drošāk paspēt iepriekš.",
- se_more="Rādīt visus termiņus ({n})", se_calname="Latvijas pašnodarbināto termiņi 2027", se_caldesc="Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Pārbaudīts 11.11.2026.",
+ se_more="Rādīt visus termiņus ({n})", se_calname="Latvijas pašnodarbināto termiņi 2026–2027", se_caldesc="Ceturkšņa ziņojumi un VSAOI, MUN, PVN. Pārbaudīts 11.11.2026.",
  card_se=("Pašnodarbinātie","Atsevišķs kalendārs: ziņojumi un iemaksas, MUN, PVN, saites uz EDS."), actw="Kur iesniegt vai samaksāt")}
 for k, t in T.items():
     t.update(SEXT[k]); t["se_events"] = SERU if k == "ru" else SELV

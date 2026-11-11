@@ -3,6 +3,8 @@ CAT = {"Декларация":"Deklarācija","Налог на недвижимо
 NIN = "Ceturtā daļa no gada nodokļa summas (likumā noteiktie termiņi: 31. marts, 15. maijs, 15. augusts, 15. novembris). {n} Par nokavējumu tiek aprēķināta nokavējuma nauda 0,05% dienā."
 NOWORK = "{w} Pēc Labklājības ministrijas informācijas (2026. gada oktobrī) darba dienas 2027. gadā netiek pārceltas: Ministru kabineta rīkojums nav pieņemts. Darba devējs brīvdienu var noteikt pēc saviem ieskatiem."
 EV = [
+("NĪN: 2026. gada pēdējais nekustamā īpašuma nodokļa maksājums",
+ "Ceturtā daļa no 2026. gada nodokļa summas (likumā noteiktie termiņi: 31. marts, 15. maijs, 15. augusts, 15. novembris). 15. novembris 2026 ir svētdiena, termiņš pārceļas uz pirmdienu, 16. novembri. Par nokavējumu tiek aprēķināta nokavējuma nauda 0,05% dienā."),
 ("NĪN: jāatnāk paziņojumam par 2027. gada nodokli",
  "Pašvaldība paziņo nodokļa summu līdz 15. februārim (e-adresē, e-pastā vai pa pastu). Ja paziņojums nav saņemts, īpašniekam mēneša laikā rakstveidā jāinformē pašvaldība. Rīgā: pip.riga.lv, tālr. 80000850."),
 ("Deklarācija: sākas GID pieņemšana par 2026. gadu (EDS)",

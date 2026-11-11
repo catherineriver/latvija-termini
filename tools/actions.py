@@ -4,4 +4,4 @@ KG = ("Записать ребёнка: latvija.gov.lv, услуга «Bērna re
 SCH = ("Подать заявку: latvija.gov.lv или лично в школе", "Iesniegt pieteikumu: latvija.gov.lv vai klātienē skolā", "https://latvija.gov.lv")
 SCHR = ("Ответить школе: уведомление придёт на e-adrese (latvija.gov.lv) или e-mail", "Atbildēt skolai: paziņojums nāks uz e-adresi (latvija.gov.lv) vai e-pastu", "https://latvija.gov.lv")
 # same order as sorted(build.E)
-MAIN = [PIP, EDS, PIP, KG, None, PIP, SCH, EDS, SCHR, EDS, None, EDS, EDS, PIP, EDS, PIP, None]
+MAIN = [PIP, PIP, EDS, PIP, KG, None, PIP, SCH, EDS, SCHR, EDS, None, EDS, EDS, PIP, EDS, PIP, None]

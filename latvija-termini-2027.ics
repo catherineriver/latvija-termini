@@ -3,13 +3,45 @@ VERSION:2.0
 PRODID:-//Iedzivotaja termini//LV 2027//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Дедлайны жителя Латвии 2027
+X-WR-CALNAME:Дедлайны жителя Латвии 2026–2027
 X-WR-TIMEZONE:Europe/Riga
 X-WR-CALDESC:Декларация\, налог на недвижимост
  ь\, рабочие дни\, школы и садики (Рига). Све
  рено 11.11.2026.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:a2292482f3030fe4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NĪN: последний платёж налога на недви
+ жимость за 2026 год
+DESCRIPTION:Четвёртая часть годовой суммы нал
+ ога на недвижимость за 2026 год (сроки по з
+ акону: 31 марта\, 15 мая\, 15 августа\, 15 ноябр
+ я). 15 ноября 2026 — воскресенье\, срок перех
+ одит на понедельник 16 ноября. За просроч
+ ку начисляются пени 0\,05% в день.\n\nГде под
+ ать или оплатить: Налог на недвижимость 
+ в Риге: pip.riga.lv: https://pip.riga.lv\nИсточник: https://p
+ ip.riga.lv
+CATEGORIES:Налог на недвижимость
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: последний платёж налога на нед
+ вижимость за 2026 год
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: последний платёж налога на нед
+ вижимость за 2026 год
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
 BEGIN:VEVENT
 UID:63bab9942d02fba4@iedzivotaja-termini.lv
 DTSTAMP:20261111T190000Z

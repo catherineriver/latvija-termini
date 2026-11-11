@@ -1,6 +1,6 @@
 import datetime as dt
 D = dt.date
-HOL = {D(2027,1,1),D(2027,3,26),D(2027,3,28),D(2027,3,29),D(2027,5,1),D(2027,5,4),D(2027,6,23),D(2027,6,24),D(2027,11,18),D(2027,12,24),D(2027,12,25),D(2027,12,26),D(2027,12,31)}
+HOL = {D(2026,11,18),D(2026,12,24),D(2026,12,25),D(2026,12,26),D(2026,12,31),D(2027,1,1),D(2027,3,26),D(2027,3,28),D(2027,3,29),D(2027,5,1),D(2027,5,4),D(2027,6,23),D(2027,6,24),D(2027,11,18),D(2027,12,24),D(2027,12,25),D(2027,12,26),D(2027,12,31)}
 def ok(d): return d.weekday() < 5 and d not in HOL
 def prev_wd(d):
     while not ok(d): d -= dt.timedelta(1)
@@ -90,9 +90,9 @@ add(D(2027,7,23),
      "Ja no saimnieciskās darbības ienākuma aprēķinātais IIN nepārsniedz 50 EUR, līdz 23. jūlijam jāsamaksā minimālais nodoklis 50 EUR. Nav jāmaksā, piemēram, ja veiktas VSAOI par sevi kā pašnodarbinātu personu. Pilns izņēmumu saraksts ir VID materiālā."),
     CAT_G, U_X, (7, 1))
 # VAT monthly
-for m in range(1, 13):
-    pm, py = (12, 2026) if m == 1 else (m - 1, 2027)
-    s, nr, nl = shift(D(2027, m, 20))
+for yy, m in [(2026, 11), (2026, 12)] + [(2027, k) for k in range(1, 13)]:
+    pm, py = (12, yy - 1) if m == 1 else (m - 1, yy)
+    s, nr, nl = shift(D(yy, m, 20))
     add(s, (f"PVN: декларация за {RU_NOM[pm-1]} {py} (оплата до 23-го)",
             f"Декларация PVN подаётся в EDS в течение 20 дней после окончания налогового периода (до 20 {RU_GEN[m-1]}).{nr} Налог платится до 23-го числа следующего месяца. Относится к зарегистрированным плательщикам PVN. Если у вас квартальный период, подавайте только в январе, апреле, июле и октябре."),
            (f"PVN: deklarācija par {py}. gada {LV_ACC[pm-1]} (samaksa līdz 23. datumam)",

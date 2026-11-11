@@ -3,12 +3,41 @@ VERSION:2.0
 PRODID:-//Iedzivotaja termini//LV 2027//LV
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Latvijas iedzīvotāja termiņi 2027
+X-WR-CALNAME:Latvijas iedzīvotāja termiņi 2026–2027
 X-WR-TIMEZONE:Europe/Riga
 X-WR-CALDESC:Deklarācija\, nekustamā īpašuma nodoklis\, darba dienas\, 
  skolas un bērnudārzi (Rīga). Pārbaudīts 11.11.2026.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:a2292482f3030fe4@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NĪN: 2026. gada pēdējais nekustamā īpašuma nodokļa maksājum
+ s
+DESCRIPTION:Ceturtā daļa no 2026. gada nodokļa summas (likumā noteiktie
+  termiņi: 31. marts\, 15. maijs\, 15. augusts\, 15. novembris). 15. novem
+ bris 2026 ir svētdiena\, termiņš pārceļas uz pirmdienu\, 16. novembri
+ . Par nokavējumu tiek aprēķināta nokavējuma nauda 0\,05% dienā.\n\nK
+ ur iesniegt vai samaksāt: Nekustamā īpašuma nodoklis Rīgā: pip.riga.
+ lv: https://pip.riga.lv\nAvots: https://pip.riga.lv
+CATEGORIES:Nekustamā īpašuma nodoklis
+TRANSP:TRANSPARENT
+URL:https://pip.riga.lv
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2026. gada pēdējais nekustamā īpašuma nodokļa maks
+ ājums
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NĪN: 2026. gada pēdējais nekustamā īpašuma nodokļa maks
+ ājums
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
 BEGIN:VEVENT
 UID:63bab9942d02fba4@iedzivotaja-termini.lv
 DTSTAMP:20261111T190000Z

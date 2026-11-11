@@ -3,12 +3,40 @@ VERSION:2.0
 PRODID:-//Iedzivotaja termini//LV 2027//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Дедлайны самозанятых Латвии 2027
+X-WR-CALNAME:Дедлайны самозанятых Латвии 2026–20
+ 27
 X-WR-TIMEZONE:Europe/Riga
 X-WR-CALDESC:Квартальные отчёты и VSAOI\, MUN\, PVN. Св
  ерено 11.11.2026.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:b22112e6c4179624@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:PVN: декларация за октябрь 2026 (оплата д
+ о 23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 ноября). Налог платится до 23-го 
+ числа следующего месяца. Относится к зар
+ егистрированным плательщикам PVN. Если у 
+ вас квартальный период\, подавайте тольк
+ о в январе\, апреле\, июле и октябре.\n\nГде 
+ подать или оплатить: Подать или оплатить
+  в EDS (VID): https://eds.vid.gov.lv/login/\nИсточник: https://ww
+ w.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за октябрь 2026 (оплат
+ а до 23-го)
+TRIGGER:-P1DT15H
+END:VALARM
+END:VEVENT
 BEGIN:VEVENT
 UID:e0b727d28fd8c148@iedzivotaja-termini.lv
 DTSTAMP:20261111T190000Z
@@ -45,6 +73,36 @@ ACTION:DISPLAY
 DESCRIPTION:MUN: последний срок заявки на перехо
  д на микропредприятие с 2027 года
 TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:13fa0d91b847b226@iedzivotaja-termini.lv
+DTSTAMP:20261111T190000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:PVN: декларация за ноябрь 2026 (оплата до
+  23-го)
+DESCRIPTION:Декларация PVN подаётся в EDS в течен
+ ие 20 дней после окончания налогового пер
+ иода (до 20 декабря). 20 декабря — воскресе
+ нье. По правилам срок обычно переносится
+  на следующий рабочий день\, но надёжнее 
+ успеть до пятницы\, 18 декабря. Налог плат
+ ится до 23-го числа следующего месяца. Отн
+ осится к зарегистрированным плательщик
+ ам PVN. Если у вас квартальный период\, под
+ авайте только в январе\, апреле\, июле и о
+ ктябре.\n\nГде подать или оплатить: Подать
+  или оплатить в EDS (VID): https://eds.vid.gov.lv/login/\nИс
+ точник: https://www.vid.gov.lv/lv/media/2299/download
+CATEGORIES:PVN
+TRANSP:TRANSPARENT
+URL:https://eds.vid.gov.lv/login/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PVN: декларация за ноябрь 2026 (оплата 
+ до 23-го)
+TRIGGER:-P1DT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
